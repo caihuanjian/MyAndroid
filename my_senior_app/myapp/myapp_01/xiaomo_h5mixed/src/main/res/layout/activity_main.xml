@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/llUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:imeOptions="actionGo"
+            />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前往" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/llUrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+    <LinearLayout
+        android:id="@+id/layout_speech_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageView
+            android:id="@+id/img_speech_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/speech_input" />
+    </LinearLayout>
+
+</RelativeLayout>

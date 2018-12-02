@@ -1,0 +1,88 @@
+/*
+ * Copyright (C) 2016 Baidu, Inc. All Rights Reserved.
+ */
+import java.util.regex.Pattern
+
+project.ext {
+
+    javaVersion = 7
+    javaMaxHeapSize = '2G'
+    compileSdkVersion = 25
+    buildToolsVersion = "26.0.1"
+
+    minSdkVer = 16
+    targetSdkVer = 21
+
+    enableBuildNative = true
+    enableAspectj = false
+    installAfterBuild = false
+
+    // 开启instantRun
+    instantRun = false
+    // 自定义 multiDex
+    customMultiDex = true
+
+    // resguard
+    enableResguard = true
+
+    sourceCompatibility = this.&getJavaVersion()
+    targetCompatibility = this.&getJavaVersion()
+    getParamManifest = this.&getParamManifest
+    parseLocalPropertes = this.&parseLocalPropertes
+    analysisDexMethod = this.&analysisDexMethod
+    generateMainDexClass = this.&generateMainDexClass
+    analysisPath = this.&analysisPath
+    releaseTime = this.&releaseTime
+
+    buildToolsPath = "${project.rootDir}/build-tools/"
+    multiDexRulesDir = "${projectDir}/multidex"
+}
+
+def getJavaVersion() {
+    switch (project.ext.javaVersion) {
+        case "6":
+            return JavaVersion.VERSION_1_6
+        case "7":
+            return JavaVersion.VERSION_1_7
+        case "8":
+            return JavaVersion.VERSION_1_8
+        case "9":
+            return JavaVersion.VERSION_1_9
+        default:
+            return JavaVersion.VERSION_1_6
+    }
+}
+
+
+def isFileExists(path) {
+    def mFile = new File(path)
+    return mFile.exists()
+}
+
+def parseLocalProperties(param) {
+    def localProperties = new File(project.rootDir, "local.properties")
+    if (localProperties.exists()) {
+        Properties properties = new Properties()
+        localProperties.withInputStream { instr ->
+            properties.load(instr)
+        }
+        return properties.getProperty("$param")
+    }
+    return null
+}
+
+def analysisPath(param) {
+    param = "${param}".toLowerCase()
+    def path
+    android.applicationVariants.all { variant ->
+        def variantName = variant.name.toLowerCase()
+        if (param.contains(variantName)) {
+            path = variant.dirName
+        }
+    }
+    return path
+}
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd_HH-mm-ss");
+}

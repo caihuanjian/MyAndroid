@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.yinxm.playsdk.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BtPlayActivity" />
+
+        <service
+            android:name="com.app.media.service.MediaPlayService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name="com.app.media.receiver.MediaButtonIntentReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.app.media.receiver.BootReceiver">
+            <intent-filter>
+                <action android:name="com.app.media.START" />
+                <action android:name="com.app.media..START" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.app.media.receiver.CommandReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.app.media..PLAY" />
+                <action android:name="com.app.media..PAUSE" />
+                <action android:name="com.app.media..NEXT" />
+                <action android:name="com.app.media..PRE" />
+                <action android:name="com.app.media..EXIT" />
+                <action android:name="com.app.media..CHANNEL" />
+                <action android:name="com.app.media..LIKE" />
+                <action android:name="com.app.media..SWITCHMODE" />
+                <action android:name="com.app.media..CHANGE" />
+                <action android:name="com.app.media..QUERY" />
+                <action android:name="com.app.media..CONTINUEPLAY" />
+                <action android:name="com.app.media..OPEN_PRIVATE_RADIO" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".CachePlayActivity"></activity>
+    </application>
+
+</manifest>

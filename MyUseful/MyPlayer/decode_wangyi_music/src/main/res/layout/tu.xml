@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/yv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" fresco:roundedCornerRadius="@dimen/ft" fresco:placeholderImage="@drawable/acs" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" />
+    <ImageView android:id="@id/a0s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aj3" android:layout_alignLeft="@id/yv" android:layout_alignTop="@id/yv" />
+    <ImageView android:id="@id/a0t" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ec" android:layout_alignTop="@id/yv" android:layout_alignRight="@id/yv" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/b3n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.299988dip" android:layout_marginBottom="5.299988dip" android:layout_alignBottom="@id/yv" android:layout_alignParentRight="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/og" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="5.0dip" android:maxLines="2" android:layout_below="@id/yv" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/dq" android:id="@id/pv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="1.0dip" android:singleLine="true" android:layout_below="@id/og" fresco:normalDrawableColor="@color/b7" />
+</RelativeLayout>

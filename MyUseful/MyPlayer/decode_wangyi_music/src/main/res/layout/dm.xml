@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.PlaylistAndAlbumHeaderContainer android:id="@id/fr" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/a15" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/album_sale_area" />
+        <include layout="@layout/playlist_album_new_playall_area" />
+    </LinearLayout>
+    <include layout="@layout/layout_pl_al_header_blurbg" />
+    <LinearLayout style="@style/album_pl_info_container_style">
+        <RelativeLayout android:background="@drawable/a3k" android:padding="1.0px" android:layout_width="@dimen/c9" android:layout_height="@dimen/c8">
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/a16" android:layout_width="@dimen/c8" android:layout_height="@dimen/c8" app:cmRoundedCorner="@dimen/ft" app:placeholderImage="@drawable/aci" app:placeholderImageScaleType="dj" app:actualImageScaleType="dj" app:pressedStateOverlayImage="@color/gi" />
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/a16" android:layout_alignParentBottom="true" layout="@layout/layout_pl_and_album_res_detail_icon" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/c8" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/a17" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k6" android:maxLines="2" android:lineSpacingMultiplier="1.2" app:nightSpecialForegroundColor="@color/df" />
+            <LinearLayout android:orientation="vertical" android:id="@id/a18" android:background="@drawable/d7" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0dip" android:textColor="#cfffffff" android:id="@id/a19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:singleLine="true" android:drawableRight="@drawable/a3l" android:drawablePadding="7.0dip" app:nightSpecialForegroundColor="@color/df" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0dip" android:textColor="#cfffffff" android:id="@id/a1_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" app:nightSpecialForegroundColor="@color/df" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_pl_album_action_area" />
+</com.netease.cloudmusic.ui.PlaylistAndAlbumHeaderContainer>

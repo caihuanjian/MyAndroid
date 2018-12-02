@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/gy" android:paddingRight="@dimen/gy" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/aeq" android:layout_width="@dimen/oj" android:layout_height="@dimen/oi">
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a77" app:nightSpecialForegroundColor="@color/dc" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/aem" android:layout_width="@dimen/ol" android:layout_height="@dimen/ol" android:layout_marginTop="@dimen/ok" android:src="@drawable/a79" android:layout_centerHorizontal="true" app:nightSpecialForegroundColor="@color/dc" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/aer" android:layout_width="fill_parent" android:layout_height="@dimen/gu" android:layout_marginTop="37.0dip" android:text="@string/a72" app:buttonType="cq" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:textColor="@color/cb" android:gravity="center" android:id="@id/aes" android:layout_width="fill_parent" android:layout_height="@dimen/gu" android:layout_marginTop="20.0dip" android:text="@string/a74" app:buttonType="cn" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="#ff666666" android:gravity="center" android:layout_gravity="right" android:id="@id/aet" android:layout_width="wrap_content" android:layout_height="@dimen/gu" android:layout_marginTop="@dimen/gz" android:text="@string/a7a" android:drawableLeft="@drawable/a74" android:drawablePadding="7.0dip" app:needApplyDrawableColor="true" app:normalDrawableColor="@color/b6" />
+</LinearLayout>

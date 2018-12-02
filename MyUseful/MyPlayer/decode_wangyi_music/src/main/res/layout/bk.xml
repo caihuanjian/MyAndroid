@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/gi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageSwitcher android:id="@id/na" android:background="@drawable/afm" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="44.0sp" android:typeface="normal" android:textColor="#cdffffff" android:id="@id/nb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="65.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#9affffff" android:id="@id/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:drawableLeft="@drawable/a7u" android:drawablePadding="6.0dip" android:layout_toRightOf="@id/nb" android:layout_alignBaseline="@id/nb" />
+    <TextView android:textSize="15.0sp" android:textColor="#cdffffff" android:id="@id/nd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="-2.0dip" android:layout_below="@id/nb" />
+    <TextView android:textSize="15.0sp" android:textColor="#cdffffff" android:layout_gravity="center_horizontal" android:id="@id/ne" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="13.0dip" android:layout_below="@id/nd" />
+    <TextView android:textSize="13.0sp" android:textColor="#9affffff" android:layout_gravity="center_horizontal" android:id="@id/nf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="1.0dip" android:layout_below="@id/ne" />
+    <com.netease.cloudmusic.ui.ThreeLineLyricView android:id="@id/ng" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h2" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/nh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="25.0dip" android:layout_above="@id/ni">
+        <ImageView android:id="@id/nj" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/a7a" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/nk" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/a7r" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/nl" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/a7j" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/nm" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/a7h" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/nn" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/a7n" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/no" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/a7c" android:layout_weight="1.0" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/ni" android:layout_width="100.0dip" android:layout_height="18.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

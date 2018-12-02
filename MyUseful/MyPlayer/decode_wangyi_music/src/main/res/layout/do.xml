@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/musicItemRealItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/song_rank_container_layout" />
+    <include layout="@layout/song_name_and_info_area_layout" />
+    <include layout="@layout/song_video_btn_layout" />
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

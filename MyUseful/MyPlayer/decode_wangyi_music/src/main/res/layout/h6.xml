@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/a8n" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ee"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/a8o" android:layout_width="50.0dip" android:layout_height="28.0dip" android:layout_marginTop="6.0dip" android:text="@string/b1t" />
+    <include android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/edit_widget_share_icon" />
+    <ViewStub android:layout_gravity="center|right" android:id="@id/a8p" android:layout="@layout/h9" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/kp" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="-3.0dip" app:normalForegroundColor="@color/b6" app:needPressed="true" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/a8q" android:paddingLeft="@dimen/js" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="50.0dip">
+        <com.netease.cloudmusic.module.bigexpression.ExpressionEditText android:textSize="@dimen/f5" android:layout_gravity="bottom" android:id="@id/js" android:background="@null" android:paddingLeft="0.5dip" android:paddingTop="6.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:hint="@string/at8" android:maxLines="3" android:imeOptions="actionSend" android:imeActionLabel="@string/at8" android:textCursorDrawable="@null" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_gravity="bottom|center|right" android:id="@id/a8r" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:normalForegroundColor="@color/b6" />
+    </FrameLayout>
+</FrameLayout>

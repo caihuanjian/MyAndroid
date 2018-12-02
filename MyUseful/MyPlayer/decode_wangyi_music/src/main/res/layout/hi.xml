@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <org.xjy.android.nova.widget.NovaRecyclerView android:id="@id/a9e" android:paddingTop="23.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/a9f" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/a9g" android:layout_width="100.0dip" android:layout_height="100.0dip" app:placeholderImage="@drawable/qb" app:actualImageScaleType="dk" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="17.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/a9h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:gravity="center" android:id="@id/a9i" android:layout_width="70.0dip" android:layout_height="26.0dip" android:layout_marginTop="15.0dip" android:text="@string/boq" app:buttonType="cn" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/l8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

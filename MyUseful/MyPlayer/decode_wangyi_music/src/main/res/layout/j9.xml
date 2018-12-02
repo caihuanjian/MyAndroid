@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ViewStub android:id="@id/aei" android:layout="@layout/rj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.netease.cloudmusic.ui.PagerListView android:id="@id/aej" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/aei" />
+        <com.netease.cloudmusic.ui.IndexBar android:id="@id/acg" android:layout_width="@dimen/lz" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="50.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/aby" android:background="@drawable/a0p" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:minWidth="70.0dip" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/a04" app:normalForegroundColor="@color/b9" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:text="@string/a6f" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/aek" android:layout_width="248.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:text="@string/a6v" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/music_list_manage_bottom_option_bar_layout" />
+</LinearLayout>

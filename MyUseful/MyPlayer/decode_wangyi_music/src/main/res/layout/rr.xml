@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:paddingLeft="@dimen/js" android:paddingRight="@dimen/js" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="@dimen/hu"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:id="@id/kn" android:paddingLeft="@dimen/js" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_alignParentTop="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/do" android:id="@id/rv" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/rv">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b04" android:paddingBottom="2.0dip" android:layout_marginLeft="0.0dip" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b05" android:layout_marginLeft="0.0dip" android:drawableLeft="@drawable/a4m" app:needApplyDrawableColor="true" app:needApplyNormalDrawableColor="false" app:normalDrawableColor="@color/b7" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b06" app:needApplyDrawableColor="true" app:needApplyNormalDrawableColor="false" app:normalDrawableColor="@color/b7" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b07" app:needApplyDrawableColor="true" app:needApplyNormalDrawableColor="false" app:normalDrawableColor="@color/b7" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b08" app:nightSpecialDrawableColor="#33ffffff" app:needApplyDrawableColor="true" app:needApplyNormalDrawableColor="false" style="@style/radioDetailItemIconTv" />
+    </LinearLayout>
+    <ImageView android:id="@id/aqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

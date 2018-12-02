@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="list_selector">@drawable/list_selector_inner</item>
+    <item type="drawable" name="bz">@drawable/c0</item>
+    <item type="drawable" name="c1">@drawable/c2</item>
+    <item type="drawable" name="c3">@drawable/c4</item>
+    <item type="drawable" name="c5">@drawable/c6</item>
+    <item type="drawable" name="m4">@drawable/t</item>
+    <item type="drawable" name="common_selector">@drawable/list_selector</item>
+    <item type="drawable" name="m5">@drawable/c3</item>
+    <item type="drawable" name="m6">@drawable/au</item>
+    <item type="drawable" name="m7">@drawable/av</item>
+    <item type="drawable" name="m8">@drawable/list_selector</item>
+    <item type="drawable" name="m9">#3333b5e5</item>
+    <item type="drawable" name="m_">#0cffffff</item>
+    <item type="drawable" name="ma">@drawable/db</item>
+    <item type="drawable" name="mb">@drawable/dc</item>
+</resources>

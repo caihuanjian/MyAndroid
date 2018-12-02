@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/a85" android:visibility="gone" android:layout_width="fill_parent" android:text="@string/ra" android:drawableTop="@drawable/qm" android:layout_alignParentBottom="true" style="@style/musicListManageTextView"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

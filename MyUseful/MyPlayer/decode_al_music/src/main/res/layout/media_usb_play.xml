@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/media_bg" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="92.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+    <FrameLayout android:id="@id/media_list_tab_container" android:background="@drawable/media_music_play_list_background" android:visibility="gone" android:layout_width="345.0dip" android:layout_height="565.0dip" android:layout_marginTop="105.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/usb_media_view_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/media_list_tab_container" />
+    <View android:id="@id/list_hide_view" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/top_decorator_view" android:background="@drawable/media_top_decorate" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="e" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="bj" parent="@style/pj" />
+    <style name="bk" parent="@style/pk" />
+    <style name="bs" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="d3" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="d4" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="d5" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="d6" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="d7" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="pj" parent="@style/ph">
+        <item name="de">?android:actionBarItemBackground</item>
+        <item name="df">?android:actionMenuTextAppearance</item>
+        <item name="dg">?android:actionMenuTextColor</item>
+        <item name="f9">@drawable/mp</item>
+        <item name="fq">?android:ratingBarStyleIndicator</item>
+        <item name="fr">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="pk" parent="@style/pi">
+        <item name="de">?android:actionBarItemBackground</item>
+        <item name="df">?android:actionMenuTextAppearance</item>
+        <item name="dg">?android:actionMenuTextColor</item>
+        <item name="f9">@drawable/mp</item>
+        <item name="fq">?android:ratingBarStyleIndicator</item>
+        <item name="fr">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

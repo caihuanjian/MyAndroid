@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.afollestad.materialdialogs.internal.MDButton android:id="@id/apr" style="@style/MD_ActionButton.Text" />
+    <com.afollestad.materialdialogs.internal.MDButton android:id="@id/aps" style="@style/MD_ActionButton.Text" />
+    <com.afollestad.materialdialogs.internal.MDButton android:id="@id/apt" style="@style/MD_ActionButton.Text" />
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/track_basic_header_info_layout" />
+    <include layout="@layout/track_desc_layout" />
+    <LinearLayout android:id="@id/b48" style="@style/track_comment_main_container_style">
+        <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="15.0sp" android:textColor="@color/do" android:id="@id/aw_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="trackCommentContent" android:lineSpacingExtra="4.669983dip" />
+        <com.netease.cloudmusic.ui.TrackCommentTextViewFixTouchConsume android:textSize="14.0sp" android:textColor="@color/dq" android:id="@id/awc" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="10.0dip" android:lineSpacingExtra="3.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0dip" android:textColor="@color/dt" android:gravity="center" android:id="@id/b49" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/awd" android:background="@drawable/el" android:layout_width="fill_parent" android:layout_height="@dimen/n0" android:layout_marginTop="24.0dip">
+            <com.netease.cloudmusic.ui.TrackResImageView android:id="@id/awe" android:layout_width="@dimen/n0" android:layout_height="@dimen/n0" fresco:roundedCornerRadius="@dimen/ft" fresco:placeholderImage="@drawable/acs" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0dip" android:textColor="@color/ds" android:id="@id/awg" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="trackCommentResInfo" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/track_rcmd_reason_layout" />
+    <ViewStub android:gravity="center_vertical" android:id="@id/b4_" android:layout="@layout/u_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

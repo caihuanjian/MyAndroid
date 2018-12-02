@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/xt" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.ui.SimpleTextureView android:id="@id/lg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/zd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_below="@id/xt">
+        <android.support.v7.widget.RecyclerView android:id="@id/ze" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/pt" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_centerInParent="true" />
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/zf" android:background="@color/themeColor" android:padding="3.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" fresco:fadeDuration="0" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/e1" android:id="@id/ls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/b0x" android:layout_below="@id/zd" android:layout_centerHorizontal="true" />
+</RelativeLayout>

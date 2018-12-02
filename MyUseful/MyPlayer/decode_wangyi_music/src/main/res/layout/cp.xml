@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/uq" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <view android:id="@id/ur" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.netease.cloudmusic.activity.ScanActivity$ScanView" />
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/oi" android:visibility="gone" android:layout_width="115.0dip" android:layout_height="@dimen/j7" android:text="@string/ae6" android:layout_centerHorizontal="true" />
+    <View android:id="@id/us" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:id="@id/ut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="48.0dip" android:layout_marginBottom="26.0dip" android:text="@string/i8" android:drawablePadding="6.0dip" android:layout_toLeftOf="@id/us" android:layout_alignParentBottom="true" />
+    <com.netease.cloudmusic.module.ar.NewLabelTextView android:textSize="12.0sp" android:gravity="center_horizontal" android:id="@id/uu" android:paddingTop="3.0dip" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginBottom="26.0dip" android:text="@string/fg" android:drawablePadding="6.0dip" android:layout_toRightOf="@id/us" android:layout_alignParentBottom="true" />
+    <include android:layout_width="fill_parent" android:layout_height="?dc" layout="@layout/toolbar" />
+    <View android:id="@id/pt" android:background="#4d000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

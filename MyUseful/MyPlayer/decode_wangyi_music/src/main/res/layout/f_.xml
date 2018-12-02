@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeTrackResLinearLayout android:orientation="horizontal" android:id="@id/a5a" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/a5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="3.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/dq" android:ellipsize="end" android:id="@id/a5c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/a5d" android:layout_width="105.0dip" android:layout_height="70.0dip" fresco:roundedCornerRadius="@dimen/ft" fresco:placeholderImage="@drawable/acs" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" />
+</com.netease.cloudmusic.theme.ui.CustomThemeTrackResLinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aoj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.AvatarImage android:layout_gravity="center_vertical" android:id="@id/aok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/my" app:avatarStyle="c0" />
+    <LinearLayout android:layout_gravity="center_vertical" android:id="@id/aol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/aom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/t_link" android:id="@id/aon" android:layout_weight="1.0" style="@style/userTrackTvNormalSignleLine" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/dp" android:id="@id/aoo" android:layout_marginLeft="3.0dip" style="@style/userTrackTvNormalSignleLine" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTrackFollowButton android:layout_gravity="center_vertical" android:id="@id/a7q" android:layout_width="@dimen/n7" android:layout_height="@dimen/n6" android:layout_alignParentRight="true" />
+</LinearLayout>

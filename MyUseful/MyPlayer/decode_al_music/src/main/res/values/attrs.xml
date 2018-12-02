@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="gravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="gridViewStyle" format="reference" />
+    <attr name="listSelector" format="reference|color" />
+    <attr name="drawSelectorOnTop" format="boolean" />
+    <attr name="stackFromBottom" format="boolean" />
+    <attr name="scrollingCache" format="boolean" />
+    <attr name="transcriptMode">
+        <enum name="alwaysScroll" value="2" />
+        <enum name="disabled" value="0" />
+        <enum name="normal" value="1" />
+    </attr>
+    <attr name="cacheColorHint" format="color" />
+    <attr name="smoothScrollbar" format="boolean" />
+    <attr name="scrollDirectionPortrait">
+        <enum name="horizontal" value="1" />
+        <enum name="vertical" value="0" />
+    </attr>
+    <attr name="scrollDirectionLandscape">
+        <enum name="horizontal" value="1" />
+        <enum name="vertical" value="0" />
+    </attr>
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="stretchMode">
+        <enum name="columnWidth" value="2" />
+        <enum name="none" value="0" />
+        <enum name="spacingWidth" value="1" />
+        <enum name="spacingWidthUniform" value="3" />
+    </attr>
+    <attr name="columnWidth" format="dimension" />
+    <attr name="rowHeight" format="dimension" />
+    <attr name="numColumns" format="integer" min="0">
+        <enum name="auto_fit" value="-1" />
+    </attr>
+    <attr name="numRows" format="integer" min="0">
+        <enum name="auto_fit" value="-1" />
+    </attr>
+</resources>

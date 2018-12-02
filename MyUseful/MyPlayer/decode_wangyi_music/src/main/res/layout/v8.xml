@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="6.0dip" layout="@layout/track_simple_header_info_layout" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTrackResLinearLayout android:gravity="center_vertical" android:id="@id/b5v" android:background="@drawable/em" android:layout_marginLeft="@dimen/na" android:layout_below="@id/b5r" style="@style/trackMainContainerStyle">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abu" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/ds" android:layout_gravity="center_vertical" android:id="@id/b5w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeTrackResLinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

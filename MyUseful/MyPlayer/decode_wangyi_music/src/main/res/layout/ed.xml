@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/gz" android:layout_width="fill_parent" android:layout_height="218.0dip" />
+    <org.xjy.android.nova.widget.NovaRecyclerView android:id="@id/a33" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</LinearLayout>

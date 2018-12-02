@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/b6g" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:id="@id/content" android:layout_marginTop="180.0dip" android:text="@string/ao2" style="@style/vehicleRadioDialogContent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginTop="70.0dip" android:layout_below="@id/content">
+        <TextView android:id="@id/b6h" android:layout_marginLeft="16.0dip" android:layout_marginRight="20.0dip" android:text="@string/k0" style="@style/vehicleDialogNegativeButton" />
+        <TextView android:id="@id/b6i" android:layout_marginRight="16.0dip" android:text="@string/ajn" style="@style/vehicleDialogPositiveButton" />
+    </LinearLayout>
+</RelativeLayout>

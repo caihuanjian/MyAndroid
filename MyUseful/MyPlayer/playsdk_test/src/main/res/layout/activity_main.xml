@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/select_players"
+        app:layout_constraintTop_toBottomOf="@id/inputUrl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_media"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="MediaPlayer" />
+
+        <RadioButton
+            android:id="@+id/rb_exo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ExoPlayer" />
+
+        <RadioButton
+            android:id="@+id/rb_ijk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IjkPlayer" />
+
+        <RadioButton
+            android:id="@+id/rb_vlc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VlcPlayer" />
+    </RadioGroup>
+
+
+    <com.app.media.ui.PlayBar
+        app:layout_constraintTop_toBottomOf="@id/select_players"
+        android:id="@+id/play_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play_bar_selector" />
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/play_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btPlay"
+            android:text="蓝牙播放信息" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="readAudioFile"
+            android:text="读取音频文件信息" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cachePlayActivity"
+            android:text="边下边播" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放状态" />
+        <TextView
+            android:id="@+id/tvPlayState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/playInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

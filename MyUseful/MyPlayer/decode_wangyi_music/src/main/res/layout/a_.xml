@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/gy" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/gz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/h0" android:layout_width="fill_parent" android:layout_height="@dimen/ca">
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/h1" android:background="@drawable/afs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:actualImageScaleType="dj" />
+        <View android:id="@id/h2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="51.0dip">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/h3" android:visibility="gone" android:layout_width="94.0dip" android:layout_height="@dimen/cb" android:drawablePadding="5.0dip" app:needThemeRedShader="true" app:buttonType="cq" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/h4" android:visibility="gone" android:layout_width="94.0dip" android:layout_height="@dimen/cb" android:layout_marginLeft="10.0dip" android:drawablePadding="4.0dip" app:buttonType="cp" />
+        </LinearLayout>
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/e4" layout="@layout/common_pagersliding_tablayout" />
+        <View android:layout_gravity="bottom" android:id="@id/h5" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </FrameLayout>
+    <include layout="@layout/toolbar" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

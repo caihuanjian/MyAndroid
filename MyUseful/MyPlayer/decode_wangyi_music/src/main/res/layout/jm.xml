@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseSwipeToRefresh android:id="@id/abd" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.ui.PinnedHeaderListView android:id="@id/afi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    </com.netease.cloudmusic.ui.NeteaseSwipeToRefresh>
+    <include android:id="@id/afj" android:visibility="gone" layout="@layout/my_music_section_item" />
+</RelativeLayout>

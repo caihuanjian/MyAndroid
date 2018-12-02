@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.LikedPeopleLayout android:gravity="center_vertical" android:paddingTop="7.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/do" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/b4c" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/a53" />
+    <com.netease.cloudmusic.ui.AvatarImage android:id="@id/b4d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="3.5dip" android:layout_marginBottom="5.0dip" app:avatarStyle="c0" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/b4e" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+</com.netease.cloudmusic.ui.LikedPeopleLayout>

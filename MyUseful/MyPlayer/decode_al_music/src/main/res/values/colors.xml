@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="navigation_button_focus">#ff009dd9</color>
+    <color name="navigation_button_normal">#ffffffff</color>
+    <color name="start_bg">#ff2b2220</color>
+    <color name="black">#ff000000</color>
+</resources>

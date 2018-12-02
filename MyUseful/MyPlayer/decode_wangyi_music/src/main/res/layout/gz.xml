@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/musicItemRealItemBgPadding10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" layout="@layout/playing_mark" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeCheckBox android:id="@id/a86" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/g6" android:layout_height="@dimen/g3" android:layout_marginLeft="@dimen/g4" android:layout_marginRight="@dimen/g5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <include layout="@layout/song_name_and_info_area_layout" />
+    <include layout="@layout/song_video_btn_layout" />
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

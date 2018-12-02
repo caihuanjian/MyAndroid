@@ -1,0 +1,3 @@
+include ':app', ':exoplayer_test', ':playsdk_test', ':audiofocus_test', ':playModel_Headset_Speaker', ':videoPlayerProxy',':usb_browser'
+include ':media_session_test'
+//include  ':decode_al_music', ':decode_wangyi_music'

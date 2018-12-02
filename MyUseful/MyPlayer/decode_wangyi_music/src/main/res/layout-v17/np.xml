@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:paddingLeft="@dimen/ia" android:paddingTop="@dimen/im" android:paddingRight="@dimen/ia" android:paddingBottom="@dimen/im" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/if" android:paddingStart="@dimen/ia" android:paddingEnd="@dimen/ia"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/a5y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:scaleType="fitXY" android:layout_marginEnd="10.0dip" />
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/apl" android:visibility="gone" android:layout_width="@dimen/ik" android:layout_height="@dimen/ik" android:layout_marginRight="@dimen/il" android:layout_marginEnd="@dimen/il" fresco:roundedCornerRadius="@dimen/ft" fresco:placeholderImage="@drawable/ac8" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" />
+    </FrameLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/ih" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/apm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingMultiplier="1.2" fresco:nightSpecialForegroundColor="@color/df" />
+    <ToggleButton android:id="@id/apn" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:textOn="" android:textOff="" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/dq" android:id="@id/apo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:nightSpecialForegroundColor="@color/df" />
+</LinearLayout>

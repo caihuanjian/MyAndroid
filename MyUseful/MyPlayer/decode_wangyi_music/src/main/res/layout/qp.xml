@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/it" android:paddingRight="11.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/privatemsg_detail_item_timeline_layout" />
+    <include layout="@layout/privatemsg_detail_item_vface_layout" />
+    <include layout="@layout/privatemsg_detail_item_name_layout" />
+    <LinearLayout android:id="@id/ajh" style="@style/privateMsgMainContainer">
+        <include layout="@layout/privatemsg_detail_item_textcontent_layout" />
+        <RelativeLayout android:id="@id/aw8" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <RelativeLayout android:id="@id/aw9" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="13.0sp" android:textColor="@color/do" android:id="@id/aw_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="trackCommentContent" android:lineSpacingExtra="4.669983dip" fresco:needApplyOtherThemeColor="false" />
+                <LinearLayout android:id="@id/awa" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/aw_">
+                    <View android:id="@id/awb" android:background="#ffcfcfcf" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+                    <com.netease.cloudmusic.ui.TextViewFixTouchConsume android:textSize="13.0sp" android:textColor="@color/dq" android:id="@id/awc" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" fresco:needApplyOtherThemeColor="false" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/awd" android:background="@drawable/el" android:layout_width="fill_parent" android:layout_height="@dimen/n0" android:layout_marginTop="15.0dip" android:layout_below="@id/awa">
+                    <com.netease.cloudmusic.ui.NeteaseMusicRoundedSimpleDraweeView android:id="@id/awe" android:layout_width="@dimen/n0" android:layout_height="@dimen/n0" fresco:placeholderImage="@drawable/acs" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" fresco:overlayImage="@drawable/uf" />
+                    <com.netease.cloudmusic.theme.ui.ImagePlayIcon android:id="@id/awf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" fresco:imagePlayIconStyle="cu" />
+                    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/ds" android:id="@id/awg" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="trackCommentResInfo" android:singleLine="true" android:layout_toRightOf="@id/awe" android:layout_centerVertical="true" fresco:needApplyOtherThemeColor="false" />
+                </RelativeLayout>
+                <TextView android:textSize="11.0sp" android:textColor="@color/ds" android:gravity="center_vertical" android:id="@id/awh" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/n0" android:layout_marginTop="15.0dip" android:layout_below="@id/awa" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

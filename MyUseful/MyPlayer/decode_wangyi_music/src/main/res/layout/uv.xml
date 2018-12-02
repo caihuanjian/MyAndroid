@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:paddingLeft="0.0dip" android:paddingRight="0.0dip" style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/track_simple_header_info_layout" />
+    <com.netease.cloudmusic.module.track.viewcomponent.FriendTrackContainer android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip">
+        <com.netease.cloudmusic.module.track.viewcomponent.dynamicmutilview.MultiItemView android:id="@id/b5c" android:layout_width="fill_parent" android:layout_height="wrap_content" app:marginLeft="56.0dip" app:marginRight="10.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/b5d" android:layout_width="254.0dip" android:layout_height="35.669983dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="20.0dip" app:needSelected="true" app:buttonType="cq" style="@style/drawableLeftButton" />
+    </com.netease.cloudmusic.module.track.viewcomponent.FriendTrackContainer>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

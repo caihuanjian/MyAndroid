@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/a1y" android:paddingBottom="7.0dip" android:text="@string/ay8" style="@style/sectionHeaderStyle" />
+    <include android:id="@id/a1z" android:visibility="gone" layout="@layout/related_subject_item" />
+    <include android:id="@id/a20" android:visibility="gone" layout="@layout/related_subject_item" />
+    <include android:id="@id/a21" android:visibility="gone" layout="@layout/related_subject_item" />
+    <include android:id="@id/a22" layout="@layout/list_more_item" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

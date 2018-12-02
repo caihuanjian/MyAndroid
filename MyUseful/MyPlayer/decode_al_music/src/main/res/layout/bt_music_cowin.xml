@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="92.0dip"
+        android:background="@drawable/mainbg"
+        android:paddingBottom="5.0dip"
+        android:paddingRight="5.0dip" />
+
+    <RelativeLayout
+        android:id="@id/topView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180.0dip">
+
+        <LinearLayout
+            android:id="@id/rightView"
+            android:layout_width="700.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btmusic_base"
+            android:orientation="vertical"
+            android:paddingBottom="20.0dip"
+            android:paddingLeft="50.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="100.0dip">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/musicname" />
+
+                <TextView
+                    android:id="@id/tv_music_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="@string/unknown_title"
+                    android:textColor="#c8ffffff"
+                    android:textSize="32.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/album" />
+
+                <TextView
+                    android:id="@id/tv_album_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:lines="1"
+                    android:text="@string/unknow_album"
+                    android:textColor="#c8ffffff"
+                    android:textSize="32.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.0dip"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/singer" />
+
+                <TextView
+                    android:id="@id/tv_singer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26.0dip"
+                    android:ellipsize="end"
+                    android:gravity="left"
+                    android:lines="1"
+                    android:text="@string/unknow_artist"
+                    android:textColor="#c8ffffff"
+                    android:textSize="32.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@id/artistImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-10.0dip"
+            android:layout_toLeftOf="@id/rightView"
+            android:src="@drawable/default_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/rela_play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40.0dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@id/btn_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:padding="40.0dip"
+                android:src="@drawable/bt_music_prev" />
+
+            <ImageButton
+                android:id="@id/btn_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@id/btn_pre"
+                android:background="@null"
+                android:padding="40.0dip"
+                android:src="@drawable/bt_music_pause" />
+
+            <ImageButton
+                android:id="@id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toEndOf="@id/btn_player"
+                android:background="@null"
+                android:padding="40.0dip"
+                android:src="@drawable/bt_music_next" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.MainVideoRefreshTextView android:textColor="@color/themeColor" android:gravity="center_vertical" android:id="@id/ap6" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginBottom="27.0dip" android:text="@string/bfb" android:drawablePadding="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

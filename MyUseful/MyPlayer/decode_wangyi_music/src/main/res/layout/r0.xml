@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.TextViewFixTouchConsume android:id="@id/ax9" app:needApplyTextColor="false" style="@style/privateMsgDetailTextStyle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

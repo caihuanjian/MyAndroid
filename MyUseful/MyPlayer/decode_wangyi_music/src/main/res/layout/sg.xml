@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/b1u" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/b1v" style="@style/findAndInvitefriendContainer">
+            <ImageView android:id="@id/b1w" android:src="@drawable/a_s" style="@style/friendRecommendImg" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:text="@string/x6" android:layout_toRightOf="@id/b1w" style="@style/friendRecommendTv" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <com.netease.cloudmusic.theme.ui.MyMusicSectionContainer android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/dp" android:gravity="center|left" android:id="@id/a4q" android:paddingLeft="@dimen/gi" android:layout_width="fill_parent" android:layout_height="25.0dip" android:text="@string/axe" />
+        </com.netease.cloudmusic.theme.ui.MyMusicSectionContainer>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffc6cee7" android:layout_width="356.0dip" android:layout_height="231.0dip">
+        <ImageView android:id="@id/sub_icon" android:layout_width="@dimen/binary_folder_sub_icon_width" android:layout_height="@dimen/binary_folder_sub_icon_height" android:layout_marginTop="50.0dip" android:scaleType="centerInside" android:layout_marginStart="64.0dip" />
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/binary_folder_icon_width" android:layout_height="@dimen/binary_folder_icon_height" android:src="@drawable/media_usb_item_folder" android:scaleType="centerInside" />
+        <LinearLayout android:gravity="center" android:id="@id/title_only_layout" android:background="#80000000" android:layout_width="356.0dip" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:ellipsize="none" android:id="@id/title_only_layout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tex_sample" android:singleLine="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/title_and_descriptor_layout" android:background="#80000000" android:visibility="gone" android:layout_width="356.0dip" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:ellipsize="none" android:id="@id/title_and_descriptor_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tex_sample" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/title_and_descriptor_layout_descriptor" />
+            <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:ellipsize="none" android:id="@id/title_and_descriptor_layout_descriptor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tex_sample" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/grid_item_selector" android:background="@drawable/grid_item_select" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

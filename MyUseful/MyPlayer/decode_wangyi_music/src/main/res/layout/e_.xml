@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.DayAndNewMusicBannerView android:id="@id/a2w" android:clickable="false" android:layout_width="fill_parent" android:layout_height="150.0dip" android:scaleType="centerCrop" app:actualImageScaleType="dj" app:overlayImage="@drawable/a0f" />
+    <RelativeLayout android:id="@id/a2x" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="15.0dip" android:layout_marginBottom="50.0dip" android:layout_alignBottom="@id/a2w">
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" app:srcCompat="@drawable/h_" app:normalForegroundColor="@color/dy" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="36.0sp" android:typeface="monospace" android:textColor="@color/dy" android:gravity="center_horizontal" android:id="@id/a2y" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.3299866dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/e0" android:id="@id/a2z" android:paddingLeft="15.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/a0g" android:drawablePadding="5.3299866dip" android:layout_alignParentBottom="true" app:nightSpecialForegroundColor="@color/df" app:nightSpecialDrawableColor="@color/df" app:needApplyDrawableColor="true" app:needApplyNormalDrawableColor="true" app:normalDrawableColor="@color/e0" />
+</RelativeLayout>

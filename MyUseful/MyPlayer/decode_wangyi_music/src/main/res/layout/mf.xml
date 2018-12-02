@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" android:id="@id/amx" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="53.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/amy" android:layout_width="@dimen/h0" android:layout_height="@dimen/h0" />
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/amz" android:visibility="gone" android:layout_width="@dimen/h0" android:layout_height="@dimen/h0" app:roundAsCircle="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/do" android:id="@id/an0" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <com.netease.cloudmusic.ui.ticketview.TickerView android:textSize="11.0sp" android:gravity="center" android:id="@id/an1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" app:ticker_animationDuration="1000" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/gc" android:id="@id/an2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:gravity="center" android:id="@id/an3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="17.0dip" android:src="@drawable/a3x" android:scaleType="center" app:needApplyNormalDrawableColor="false" app:normalForegroundColor="@color/b7" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

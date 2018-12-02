@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.module.track.viewcomponent.CustomThemeLinearLayoutWithHorizonChildView android:paddingLeft="0.0dip" android:paddingRight="0.0dip" style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/track_simple_header_info_layout" />
+    <android.support.v7.widget.RecyclerView android:id="@id/b58" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" />
+</com.netease.cloudmusic.module.track.viewcomponent.CustomThemeLinearLayoutWithHorizonChildView>

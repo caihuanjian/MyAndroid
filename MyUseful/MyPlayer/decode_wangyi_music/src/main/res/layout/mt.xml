@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/ano" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:choiceMode="singleChoice" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/anp" android:paddingBottom="@dimen/hg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/drawer_anomimous_header_layout" />
+        <include layout="@layout/drawer_user_header_layout" />
+        <com.netease.cloudmusic.ui.BindCellphoneHintContainer android:id="@id/anq" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="6.0dip">
+            <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/a6n" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="33.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_alignParentRight="true" app:srcCompat="@drawable/i9" app:normalForegroundColor="@color/b4" app:needPressed="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="11.0sp" android:gravity="center" android:id="@id/anr" android:layout_width="64.0dip" android:layout_height="22.0dip" android:layout_marginRight="3.0dip" android:text="@string/bk0" android:layout_toLeftOf="@id/a6n" android:layout_centerVertical="true" app:buttonType="cn" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/do" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="12.0dip" android:text="@string/bjz" android:layout_toLeftOf="@id/anr" android:layout_centerVertical="true" android:lineSpacingExtra="3.0dip" />
+        </com.netease.cloudmusic.ui.BindCellphoneHintContainer>
+        <include android:id="@id/ans" android:layout_width="fill_parent" android:layout_height="46.0dip" layout="@layout/main_drawer_private_msg_item" />
+        <include android:id="@id/ant" layout="@layout/main_drawer_msg_item" />
+        <include android:id="@id/anu" layout="@layout/main_drawer_msg_reddot_item" />
+        <include android:id="@id/anv" layout="@layout/main_drawer_msg_reddot_item" />
+        <include android:id="@id/anw" layout="@layout/main_drawer_store_item" />
+        <include android:id="@id/anx" layout="@layout/main_drawer_game_item" />
+        <include android:id="@id/any" layout="@layout/main_drawer_msg_item" />
+        <include android:id="@id/anz" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/ea" layout="@layout/main_drawer_count_item" />
+        <include android:id="@id/ao0" layout="@layout/main_drawer_msg_reddot_item" />
+        <include android:id="@id/ao1" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/ea" layout="@layout/main_drawer_theme_item" />
+        <include android:id="@id/ao2" layout="@layout/main_drawer_base_item" />
+        <include android:id="@id/ao3" layout="@layout/main_drawer_msg_item" />
+        <include android:id="@id/ao4" layout="@layout/main_drawer_msg_item" />
+        <include android:id="@id/ao5" layout="@layout/main_drawer_alarm_item" />
+        <include android:id="@id/ao6" layout="@layout/main_drawer_base_item" />
+        <include android:id="@id/ao7" layout="@layout/main_drawer_msg_item" />
+        <include android:id="@id/ao8" layout="@layout/main_drawer_base_item" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netease.cloudmusic"
+    platformBuildVersionCode="26"
+    platformBuildVersionName="8.0.0"
+    android:installLocation="auto">
+
+    <permission
+        android:name="com.netease.cloudmusic.permission.DATA_PACKAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.netease.cloudmusic.permission.OPERATOR_FREE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.netease.cloudmusic.permission.DATA_PACKAGE" />
+    <uses-permission android:name="com.netease.cloudmusic.permission.MIPUSH_RECEIVE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <permission
+        android:name="com.netease.cloudmusic.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.netease.nis.wrapper.MyApplication"
+        android:allowBackup="false"
+        android:debuggable="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/f7"
+        android:largeHeap="true"
+        android:theme="@style/ao">
+        <meta-data
+            android:name="BUGRPT_SWITCH"
+            android:value="off" />
+        <meta-data
+            android:name="com.netease.cloudmusic.opensdk.support"
+            android:value="1" />
+        <meta-data
+            android:name="com.netease.cloudmusic.opensdk.auth.activity"
+            android:value="com.netease.cloudmusic.opensdk.auth.AuthActivity" />
+        <meta-data
+            android:name="ncg_app_id"
+            android:value="8a49e8106285a37e016285a37e770027" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+        <meta-data
+            android:name="BUGRPT_APPID"
+            android:value="A009600174" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="219703634fe6d500857e0bc8c544bfdc" />
+        <meta-data
+            android:name="com.netease.nim.appKey"
+            android:value="@string/bng" />
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
+        <activity
+            android:name="com.netease.cloudmusic.activity.ActivityTrackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ListenMusicRankActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ImageBrowseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="user"
+            android:theme="@style/m8" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AudioEffectThemeChooseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DlnaSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyPrivateCloudActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ArtistCategoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.TopicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ArtistIntroActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ApplyForRadioActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ProgramMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ShareImageLrcActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SimilarRecommendActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ClearCacheActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayListExpertListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.IdentifyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.IdentifyHistoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SearchActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SearchForSelectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.TrackActivitySearchActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AlbumActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DailyRcmdMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AddToPlayListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/di" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AboutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RecordProgramActivty"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ProfileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ProfileCommentsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DiagnotorActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.FeedAndCommonProblemActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MessageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayerRadioActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayerMSActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayerProgramActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RelativePeopleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ProfileModifyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.NotifySettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ProfileNotifySettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LineCtrlActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LockScreenCtrlActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DownloadWhenCacheCompleteActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.NewAlbumActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MainPlaylistActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MainBillboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LoadingAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ma" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LoadingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ma">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MUSIC_PLAYER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/f" />
+        </activity>
+
+        <activity-alias
+            android:name="com.netease.cloudmusic.activity.RadioShortcutActivity"
+            android:icon="@drawable/radio_widget_icn_new"
+            android:label="@string/awh"
+            android:targetActivity="com.netease.cloudmusic.activity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.CAR_MODE" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.netease.cloudmusic.activity.IdentifyShortcutActivity"
+            android:icon="@drawable/identify_widget_icn_new"
+            android:label="@string/a30"
+            android:targetActivity="com.netease.cloudmusic.activity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.CAR_MODE" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.netease.cloudmusic.activity.ArtistListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.NewMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/dk"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ScanMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ArtistBillboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ArtistActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.InviteFriendActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.FeedbackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.TrackDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EditCommentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MusicOnlineQualityActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MusicDownloadQualityActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.StarUserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.CloudMusicMusicianActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PostFailTrackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ResourceCommentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PrivateMsgDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EditPlayListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.FindAndInviteFriendActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.IntroduceActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/mv" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ThemeColorTopBarBrowserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:process="@string/bk5"
+            android:screenOrientation="portrait"
+            android:theme="@style/ox" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MvVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/mp"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LiveActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/mp"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.UserBillboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ClassSelectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EditInviteActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RedirectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/nt">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/flac" />
+                <data android:mimeType="application/x-flac" />
+                <data android:mimeType="application/ogg" />
+                <data android:mimeType="application/x-ogg" />
+                <data android:mimeType="application/itunes" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.ncm" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="orpheus" />
+                <data android:scheme="orpheus-cortana" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/qy"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/qy"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.netease.cloudmusic.activity.AtSomebodyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SchoolChooseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ForwardTrackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyRecentPlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ChoosePayActivity"
+            android:theme="@style/fj" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ThemeListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ThemeColorDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ThemeBgDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ThemeDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.FloatLyricPermissionDialogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RadioDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RadioProgramsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RadioPurchaseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MVSelectedActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RadioCategoryListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PublishProgramActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ReportActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.BlacklistActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PictureVideoChooserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.CreamPlaylistActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RadioAndProgramBillboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LockScreenActivity"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.netease.music.lockscreen.task"
+            android:theme="@style/md" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayerSportRadioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SportRadioFinishActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PlayerVehicleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AlarmClockMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AlarmAlertScreenActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.netease.music.alarmscreen.task"
+            android:theme="@style/l6" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MoreHotCommentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VehicleFMConnectStateActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AlarmMusicCategoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VehicleFMSetStereoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SetAliasActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ThanksForRewardActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/md" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.FansProfitActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DeveloperActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.IPMonitorActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ConcertInfoListActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RewardSongTopListActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RewardedPeopleListActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyPrivateCloudUploadActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyBarcodeActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ScanActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LoginPermissionActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VideoCoverCaptureActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VideoEditActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VideoEditChooseMusicActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VideoEditMusicCategoryActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.FriendActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.NearbyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ColumnCollectionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RadioClassifyActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.WidgetSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RewardRadioAnchorActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ReactNativeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:process="@string/bk5"
+            android:screenOrientation="portrait"
+            android:theme="@style/fv" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SimpleVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EditTagActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.CategoryVideoListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.CategoryMvListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SDcardAuthorizeActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/fw" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MvVideoBillboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MvVideoFilterActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MvVideoSelectedActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.QLiveActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.QLiveEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.NewTrackUsersActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.RingtoneActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SharePanelActivity"
+            android:theme="@style/fj" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SharePanelPromptActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ShareActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.Share2FriendActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.BindSettingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.BindAccountActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.BindCellphoneActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.BindPassActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.WxInviteActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.YxInviteActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.InvitePairsFollowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100495085" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.netease.cloudmusic.yxapi.YXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyCollectionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyRadioActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyDigitalAlbumActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AudioAdvanceSettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MyDownloadMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DownloadPromptActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.MissingFileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.UploadMusicActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.UploadProgramActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DataPackagePromptActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EmbedBrowserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:process="@string/bk5"
+            android:screenOrientation="portrait"
+            android:theme="@style/ox" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.VipActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:process="@string/bk5"
+            android:screenOrientation="portrait"
+            android:theme="@style/ox" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.GameCenterActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:process="@string/bk5"
+            android:screenOrientation="portrait"
+            android:theme="@style/ox" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.ColumnActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:process="@string/bk5"
+            android:screenOrientation="portrait"
+            android:theme="@style/ox"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.SimpleARActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.PayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="keyboardHidden|navigation|orientation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DownloadApkPromptActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AudioEffectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AudioEffectAnimChooseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DeviceAudioEffectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.DeviceAudioEffectBrandActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.AudioEffectDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EqualizerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EqualizerSavePresetActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/di" />
+        <activity
+            android:name="com.netease.cloudmusic.activity.EqualizerPresetActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <service android:name="com.netease.cloudmusic.module.transfer.apk.ApkManagerService" />
+
+        <activity
+            android:name="com.netease.cloudmusic.opensdk.auth.AuthActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.netease.cloudmusic.opensdk.auth"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.netease.cloudmusic.opensdk.auth.SignInActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.netease.cloudmusic.service.LogicService"
+            android:exported="true">
+            <meta-data
+                android:name="com.netease.wakeup.target"
+                android:value="" />
+        </service>
+        <service
+            android:name="com.netease.cloudmusic.service.PlayService"
+            android:process="@string/bnw" />
+        <service
+            android:name="com.netease.cloudmusic.service.PlayNannyService"
+            android:process="@string/bnw" />
+        <service android:name="com.netease.cloudmusic.service.LocalMusicMatchService" />
+        <service android:name="com.netease.cloudmusic.service.upgrade.LocalMusicTaskService" />
+        <service android:name="com.netease.cloudmusic.service.PushService" />
+        <service android:name="com.amap.api.location.APSService" />
+
+        <receiver android:name="com.netease.cloudmusic.receiver.MediaButtonEventReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.netease.cloudmusic.module.appwidget.PlayerWidget"
+            android:label="@string/bgs">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.netease.music.action.STAR_MUSIC" />
+                <action android:name="com.netease.cloudmusic.change_widget_musicinfo_action" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/a" />
+        </receiver>
+        <receiver
+            android:name="com.netease.cloudmusic.module.appwidget.PlayerWidgetFourTwo"
+            android:label="@string/bgt">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.netease.music.action.STAR_MUSIC" />
+                <action android:name="com.netease.cloudmusic.change_widget_musicinfo_action" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/b" />
+        </receiver>
+        <receiver
+            android:name="com.netease.cloudmusic.module.appwidget.PlayerWidgetFourFour"
+            android:label="@string/bgu">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.netease.music.action.STAR_MUSIC" />
+                <action android:name="com.netease.cloudmusic.change_widget_musicinfo_action" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/c" />
+        </receiver>
+        <receiver android:name="com.netease.cloudmusic.receiver.AlarmAlertBroadcastReciever" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="@string/bme"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/e" />
+        </provider>
+        <provider
+            android:name="org.xjy.android.treasure.provider.TreasureProvider"
+            android:authorities="@string/biu"
+            android:exported="false"
+            android:multiprocess="false" />
+
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:process="@string/bnw" />
+        <service
+            android:name="com.xiaomi.push.service.XMJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process="@string/bnw" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:process="@string/bnw">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.netease.cloudmusic.module.push.receiver.MiPushMessageReceiver"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushEventReceiver"
+            android:enabled="false"
+            android:process="@string/bnw">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL" />
+                <action android:name="com.huawei.intent.action.PUSH" />
+                <action android:name="com.huawei.intent.action.PUSH_ON" />
+                <action android:name="com.huawei.android.push.PLUGIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.android.pushagent.PushBootReceiver"
+            android:enabled="false"
+            android:process="@string/bnw">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTER" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_version"
+                android:value="2705" />
+        </receiver>
+
+        <service
+            android:name="com.huawei.android.pushagent.PushService"
+            android:process="@string/bnw" />
+        <receiver
+            android:name="com.netease.cloudmusic.module.push.receiver.HuaweiPushReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+                <action android:name="com.huawei.android.push.intent.CLICK" />
+                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+                <action android:name="com.huawei.android.push.plugin.RESPONSE" />
+            </intent-filter>
+            <meta-data
+                android:name="CS_cloud_ablitity"
+                android:value="successRateAnalytics" />
+        </receiver>
+
+        <activity
+            android:name="com.netease.cloudmusic.module.ford.FordLockScreenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.netease.cloudmusic.plugin.PluginEntryActivity" />
+
+        <service
+            android:name="com.netease.cloudmusic.service.CloudMusicJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareToStoryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.netease.cg.center.sdk.utils.permission.PermissionUtils$PermissionActivity"
+            android:launchMode="singleTop" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+</manifest>

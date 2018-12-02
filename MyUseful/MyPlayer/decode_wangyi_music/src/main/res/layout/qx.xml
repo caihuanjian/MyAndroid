@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/it" android:paddingRight="11.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/privatemsg_detail_item_timeline_layout" />
+    <include layout="@layout/privatemsg_detail_item_vface_layout" />
+    <include layout="@layout/privatemsg_detail_item_name_layout" />
+    <LinearLayout android:id="@id/ajh" style="@style/privateMsgMainContainer">
+        <include layout="@layout/privatemsg_detail_item_textcontent_layout" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/kf" layout="@layout/privatemsg_detail_item_subject_layout" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

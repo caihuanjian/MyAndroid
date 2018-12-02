@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ac7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/ahv" android:paddingLeft="13.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/awl" android:drawableLeft="@drawable/a5c" android:drawablePadding="9.0dip" />
+    <com.netease.cloudmusic.ui.PagerListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ahv" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+</RelativeLayout>

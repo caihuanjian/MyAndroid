@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeEditText android:textSize="16.0sp" android:id="@id/hf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="38.0dip" android:hint="@string/b2k" android:maxLines="1" android:drawableLeft="@drawable/a87" android:drawablePadding="6.0dip" android:inputType="textPassword" android:imeOptions="actionGo" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:gravity="center" android:id="@id/a6k" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/hf" app:buttonType="cq" />
+</LinearLayout>

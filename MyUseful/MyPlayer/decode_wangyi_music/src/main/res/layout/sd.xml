@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe80000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/b1j" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:id="@id/b1k" android:background="@android:color/darker_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/b1l" android:paddingLeft="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:indeterminateOnly="true" style="@android:style/Widget.ProgressBar.Small" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/b1m" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" android:fontFamily="monospace" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/b1n" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/bkb" android:layout_weight="1.0" android:alpha="0.5" style="?android:attr/borderlessButtonStyle" />
+        <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/b1o" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/bko" android:layout_weight="1.0" android:alpha="0.5" style="?android:attr/borderlessButtonStyle" />
+        <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/b1p" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/bk9" android:layout_weight="1.0" android:alpha="0.5" style="?android:attr/borderlessButtonStyle" />
+        <Button android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/b1q" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/bks" android:layout_weight="1.0" android:alpha="0.5" style="?android:attr/borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

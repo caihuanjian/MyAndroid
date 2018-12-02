@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/media_views_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="34.0sp" android:textColor="@color/media_title" android:gravity="center_vertical" android:id="@id/menu_selector" android:paddingTop="40.0dip" android:paddingBottom="20.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.0dip" android:text="@string/media_title_usb_music" android:drawablePadding="21.0dip" android:drawableStart="@drawable/media_menu_indicator" android:paddingStart="40.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="15.0dip" />
+    <View android:id="@id/shadow_view" android:background="#e6000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/media_select_group" android:background="@drawable/media_menu_left_background" android:visibility="invisible" android:layout_width="266.0dip" android:layout_height="fill_parent" android:layout_marginTop="50.0dip">
+        <ImageView android:gravity="center" android:id="@id/back" android:background="@drawable/navigation_left_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/media_back" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <View android:background="@drawable/media_menu_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/radio" android:background="@drawable/navigation_left_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/radio_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigation_button_title_radio" android:drawablePadding="33.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_radio" android:layout_marginStart="51.0dip" />
+        </RelativeLayout>
+        <View android:background="@drawable/media_menu_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/usb" android:background="@drawable/navigation_left_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/usb_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigation_button_title_usb" android:drawablePadding="33.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_usb" android:layout_marginStart="51.0dip" />
+        </RelativeLayout>
+        <View android:background="@drawable/media_menu_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/bt_music" android:background="@drawable/navigation_left_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/bt_music_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigation_button_title_bluetooth" android:drawablePadding="33.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_bt_music" android:layout_marginStart="51.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/media_usb_select_group" android:background="@drawable/media_menu_right_background" android:visibility="invisible" android:layout_width="266.0dip" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:layout_alignParentEnd="true">
+        <RelativeLayout android:id="@id/music" android:background="@drawable/navigation_right_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/music_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_media_type_title_music" android:drawablePadding="33.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_music" android:layout_marginStart="60.0dip" />
+        </RelativeLayout>
+        <View android:background="@drawable/media_menu_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/image" android:background="@drawable/navigation_right_bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/image_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_media_type_title_picture" android:drawablePadding="33.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_image" android:layout_marginStart="60.0dip" />
+        </RelativeLayout>
+        <View android:background="@drawable/media_menu_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/video" android:background="@drawable/navigation_right_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/video_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_media_type_title_video" android:drawablePadding="33.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_video" android:layout_marginStart="60.0dip" />
+        </RelativeLayout>
+        <View android:background="@drawable/media_menu_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/net_music" android:background="@drawable/navigation_right_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/net_music_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_media_type_title_net_music" android:drawablePadding="20.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_net_music" android:layout_marginStart="60.0dip" />
+        </RelativeLayout>
+        <View android:background="@drawable/media_menu_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RelativeLayout android:id="@id/net_radio" android:background="@drawable/navigation_right_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="30.0sp" android:textColor="@color/navigation_text_color" android:gravity="center" android:id="@id/net_radio_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_media_type_title_net_radio" android:drawablePadding="20.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_icon_net_radio" android:layout_marginStart="60.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

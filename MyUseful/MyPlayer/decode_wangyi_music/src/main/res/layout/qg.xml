@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:background="@drawable/m8" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.PlaylistDraweeView android:id="@id/av_" android:background="@drawable/a3_" android:layout_width="@dimen/d_" android:layout_height="@dimen/d_" app:placeholderImage="@drawable/placeholder_disk_180" app:placeholderImageScaleType="dj" app:overlayImage="@drawable/ul" app:pressedStateOverlayImage="@color/gi" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ava" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:layout_toRightOf="@id/av_" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/avb" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxLines="2" android:lineSpacingExtra="4.0sp" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/ds" android:ellipsize="end" android:id="@id/avc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:drawablePadding="2.0dip" android:layout_alignLeft="@id/ava" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/dq" android:ellipsize="end" android:id="@id/avd" android:paddingTop="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+    <include layout="@layout/bottom_line" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.MyMusicSectionContainer android:id="@id/agj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="28.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0dip" android:textColor="@color/dp" android:gravity="center_vertical" android:id="@id/a4q" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/gh" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/agk" android:text="@string/aw9" android:layout_alignParentRight="true" style="@style/radioDetailSectionButton" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/agl" android:text="@string/abs" android:drawablePadding="2.0dip" android:layout_alignParentRight="true" style="@style/radioDetailSectionButton" />
+    </com.netease.cloudmusic.theme.ui.MyMusicSectionContainer>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:textColor="@color/themeColor" android:gravity="center" android:id="@id/agm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="13.0dip" android:text="@string/a10" android:drawablePadding="8.0dip" app:buttonType="cn" app:drawableLeftCompat="@drawable/g5" />
+    <ViewStub android:id="@id/agn" android:layout="@layout/mf" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

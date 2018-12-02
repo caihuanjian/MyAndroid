@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/shortcut_identify" android:enabled="true" android:shortcutId="melodyIdentify" android:shortcutShortLabel="@string/a_1" android:shortcutLongLabel="@string/a_1">
+        <intent android:targetPackage="com.netease.cloudmusic" android:action="android.intent.action.VIEW" android:targetClass="com.netease.cloudmusic.activity.RedirectActivity">
+            <extra android:name="shortcutType" android:value="1" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_fm" android:enabled="true" android:shortcutId="privateRadio" android:shortcutShortLabel="@string/aqs" android:shortcutLongLabel="@string/aqs">
+        <intent android:targetPackage="com.netease.cloudmusic" android:action="android.intent.action.VIEW" android:targetClass="com.netease.cloudmusic.activity.RedirectActivity">
+            <extra android:name="shortcutType" android:value="2" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_search" android:enabled="true" android:shortcutId="search" android:shortcutShortLabel="@string/a_x" android:shortcutLongLabel="@string/a_x">
+        <intent android:targetPackage="com.netease.cloudmusic" android:action="android.intent.action.VIEW" android:targetClass="com.netease.cloudmusic.activity.RedirectActivity">
+            <extra android:name="shortcutType" android:value="3" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_local_music" android:enabled="true" android:shortcutId="playLocalMusic" android:shortcutShortLabel="@string/anq" android:shortcutLongLabel="@string/anq">
+        <intent android:targetPackage="com.netease.cloudmusic" android:action="android.intent.action.VIEW" android:targetClass="com.netease.cloudmusic.activity.RedirectActivity">
+            <extra android:name="shortcutType" android:value="4" />
+        </intent>
+    </shortcut>
+</shortcuts>

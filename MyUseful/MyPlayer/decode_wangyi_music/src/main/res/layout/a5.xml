@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/fz" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:nightSpecialBackgroundColor="@color/br" fresco:normalBackgroundColor="@color/dn"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/g0" android:layout_width="fill_parent" android:layout_height="wrap_content" fresco:fadeDuration="300" fresco:actualImageScaleType="dj" fresco:overlayImage="@drawable/u7" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/g1" android:paddingLeft="@dimen/js" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="66.66998dip" android:layout_below="@id/g0" fresco:bgPaddingLeft="10.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="38.0sp" android:textColor="@color/do" android:layout_gravity="center" android:id="@id/g2" android:layout_weight="1.0" style="@style/recommendTextViewStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:gravity="center|right" android:layout_gravity="center" android:id="@id/g3" style="@style/settingCheckbox" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" android:id="@id/g4" android:paddingLeft="@dimen/js" android:paddingRight="@dimen/js" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/g1" fresco:bgPaddingLeft="10.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/mi" android:textColor="@color/do" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/g5" android:text="@string/cx" fresco:needBackground="false" style="@style/recommendTextViewStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/dq" android:gravity="center|right" android:id="@id/g6" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:text="@string/cz" android:singleLine="true" android:layout_weight="1.0" fresco:needBackground="false" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/g7" android:paddingLeft="@dimen/js" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/g4" fresco:bgPaddingLeft="1000.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/mi" android:textColor="@color/do" android:layout_gravity="center" android:id="@id/g8" android:text="@string/x" android:layout_weight="1.0" fresco:needBackground="false" style="@style/recommendTextViewStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeSwitch android:gravity="center|right" android:layout_gravity="center" android:id="@id/g9" style="@style/settingCheckbox" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_gravity="center" android:id="@id/g_" android:background="@color/bq" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginLeft="10.0dip" android:layout_below="@id/g7" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ga" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/g7" fresco:bgPaddingLeft="10.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/gb" android:text="@string/cf" style="@style/clockDateTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/gc" android:text="@string/cs" style="@style/clockDateTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/gd" android:text="@string/cv" style="@style/clockDateTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/ge" android:text="@string/cm" style="@style/clockDateTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/gf" android:text="@string/ca" style="@style/clockDateTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/gg" android:text="@string/ck" style="@style/clockDateTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/gh" android:text="@string/cl" style="@style/clockDateTv" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/du" android:gravity="left" android:paddingLeft="@dimen/js" android:paddingTop="@dimen/js" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ch" android:layout_below="@id/ga" />
+    <include layout="@layout/toolbar" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

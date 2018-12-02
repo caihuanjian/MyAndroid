@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="10.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeEditText android:textSize="14.0sp" android:id="@id/a3z" android:background="@drawable/ct" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/qe" android:singleLine="true" android:numeric="integer" android:digits="\ 0123456789" android:layout_weight="1.0" android:inputType="numberSigned" android:textCursorDrawable="@null" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/ds" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/ae" />
+    </LinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/du" android:id="@id/a40" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/qf" />
+</LinearLayout>

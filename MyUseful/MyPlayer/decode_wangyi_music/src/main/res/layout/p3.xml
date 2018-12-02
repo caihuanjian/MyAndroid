@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/ea" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:placeholderImage="@drawable/acf" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" />
+        <View android:background="@drawable/ul" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/ed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+            <TextView android:textSize="11.0sp" android:id="@id/a6j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="13.0sp" android:id="@id/og" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:singleLine="true" />
+    <TextView android:textSize="12.0sp" android:id="@id/pv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:singleLine="true" />
+</LinearLayout>

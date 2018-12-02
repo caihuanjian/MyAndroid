@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a30" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/a31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip">
+        <com.netease.cloudmusic.ui.RadioDraweeView android:id="@id/ea" android:layout_width="@dimen/cl" android:layout_height="@dimen/cl" app:roundedCornerRadius="@dimen/ft" app:placeholderImage="@drawable/acf" app:placeholderImageScaleType="dp" app:actualImageScaleType="dj" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/oc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hu" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/hu" android:layout_marginBottom="3.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="@dimen/gn" android:textColor="@color/do" android:id="@id/am" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="@dimen/gq" android:textColor="@color/dq" android:id="@id/pv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+        <ViewStub android:id="@id/a1d" android:layout="@layout/gb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

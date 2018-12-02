@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="e">@dimen/h</item>
+    <dimen name="f">56.0dip</dimen>
+    <dimen name="g">175.0dip</dimen>
+    <dimen name="h">43.0dip</dimen>
+</resources>

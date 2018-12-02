@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:seekarc="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="@color/j" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bj8" android:layout_centerVertical="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="13.0sp" android:textColor="@color/k" android:gravity="center" android:id="@id/ft" android:paddingLeft="12.0dip" android:paddingTop="5.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bje" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.netease.cloudmusic.module.player.audioeffect.SeekArcView android:layout_gravity="center_horizontal" android:id="@id/fu" android:layout_width="wrap_content" android:layout_height="wrap_content" seekarc:annotation="@string/bjb" style="@style/DefaultSeekArc" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.netease.cloudmusic.module.player.audioeffect.SeekArcView android:layout_gravity="center_horizontal" android:id="@id/fv" android:layout_width="wrap_content" android:layout_height="wrap_content" seekarc:annotation="@string/bja" style="@style/DefaultSeekArc" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.netease.cloudmusic.module.player.audioeffect.SeekArcView android:layout_gravity="center_horizontal" android:id="@id/fw" android:layout_width="wrap_content" android:layout_height="wrap_content" seekarc:annotation="@string/bjg" style="@style/DefaultSeekArc" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.netease.cloudmusic.module.player.audioeffect.SeekArcView android:layout_gravity="center_horizontal" android:id="@id/fx" android:layout_width="wrap_content" android:layout_height="wrap_content" seekarc:annotation="@string/bjd" style="@style/DefaultSeekArc" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="10.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="@color/j" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bj9" android:layout_centerVertical="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="13.0sp" android:textColor="@color/k" android:gravity="center" android:id="@id/fy" android:paddingLeft="12.0dip" android:paddingTop="5.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bjc" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

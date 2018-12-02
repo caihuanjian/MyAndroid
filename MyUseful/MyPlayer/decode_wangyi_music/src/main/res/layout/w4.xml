@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b7l" android:layout_width="@dimen/k4" android:layout_height="@dimen/k3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.PlaylistDraweeView android:id="@id/a16" android:layout_width="@dimen/k3" android:layout_height="@dimen/k3" fresco:placeholderImage="@drawable/aci" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" fresco:overlayImage="@drawable/ul" fresco:pressedStateOverlayImage="@color/gi" />
+    <include layout="@layout/layout_pl_and_album_res_detail_icon" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/agy" android:background="#ffffffff" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/agz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="20.0dip" android:minHeight="195.0dip">
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="38.0dip">
+                <com.netease.cloudmusic.ui.AvatarImage android:id="@id/ah0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" app:avatarStyle="c1" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/dp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/ah1" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginLeft="3.0dip" android:singleLine="true" android:layout_toRightOf="@id/ah0" android:translationY="5.0dip" />
+                <com.netease.cloudmusic.ui.CommentContentView android:id="@id/a4_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="13.0dip" android:layout_below="@id/ah0" app:commentType="cf" app:commentTextSize="18.0sp" app:needApplyTextColor="false" />
+                <com.netease.cloudmusic.ui.CommentContentView android:id="@id/ah2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/a4_" app:commentType="cg" app:ignoreAt="true" app:needApplyTextColor="false" />
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="10.0dip">
+            <ImageView android:id="@id/ah3" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="7.0dip" />
+            <ImageView android:id="@id/ah4" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/ud" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/dp" android:ellipsize="middle" android:id="@id/ah5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:layout_toRightOf="@id/ah3" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/ds" android:ellipsize="middle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/a8i" android:singleLine="true" android:layout_toRightOf="@id/ah3" android:layout_below="@id/ah5" android:translationY="-1.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

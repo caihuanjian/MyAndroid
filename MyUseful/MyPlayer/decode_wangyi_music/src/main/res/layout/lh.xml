@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/xu" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/akx" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="13.0sp" android:textColor="#e5ffffff" android:gravity="center|left" android:id="@id/ri" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/b45" android:drawableLeft="@drawable/cl" android:drawablePadding="7.0dip" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="#33ffffff" android:layout_width="0.33000004dip" android:layout_height="21.0dip" />
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="13.0sp" android:textColor="#e5ffffff" android:gravity="center|left" android:id="@id/aky" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/b44" android:drawableLeft="@drawable/ck" android:drawablePadding="7.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/akz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="81.0dip" android:layout_above="@id/akx" android:layout_centerInParent="true" app:actualImageScaleType="dk" />
+    <ViewStub android:id="@id/al0" android:layout="@layout/hl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

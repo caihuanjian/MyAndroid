@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/mainTrackContainerPicStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_page_track_basic_header_info_layout" />
+    <include layout="@layout/main_page_track_desc_layout" />
+    <include layout="@layout/main_page_discover_track_image_layout" />
+    <ViewStub android:id="@id/aop" android:layout="@layout/n7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <include layout="@layout/main_page_track_res_info_layout" />
+    <ViewStub android:id="@id/aoq" android:layout="@layout/u4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/main_page_track_interact_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

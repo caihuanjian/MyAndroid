@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/gv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="54.0dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tw" android:layout_width="257.0dip" android:layout_height="40.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" app:buttonType="cq" />
+</FrameLayout>

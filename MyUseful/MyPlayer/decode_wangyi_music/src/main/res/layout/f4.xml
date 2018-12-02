@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/a4s" android:background="@drawable/e3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/a4t" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/a4u" android:visibility="gone" android:layout_width="@dimen/aa" android:layout_height="@dimen/aa" android:layout_marginBottom="@dimen/ab" android:layout_alignBottom="@id/a4v" android:layout_centerHorizontal="true" fresco:placeholderImage="@drawable/a2x" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" />
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/a4v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" fresco:roundedCornerRadius="5.0dip" fresco:roundBottomRight="false" fresco:roundBottomLeft="false" />
+            <ImageView android:id="@id/a4w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bf" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/a4x" android:background="@drawable/e7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="120.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/a4y" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:id="@id/a4z" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/awj" android:singleLine="true" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/dp" android:id="@id/a50" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/awk" android:minLines="2" android:lineSpacingExtra="5.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffbdbebf" android:id="@id/a51" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/a4t" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="15.0dip">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/a52" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bai" android:layout_weight="1.0" fresco:buttonType="cn" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="17.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/a53" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bai" android:layout_weight="1.0" fresco:buttonType="cq" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff3470ac" android:gravity="center" android:layout_gravity="center" android:id="@id/a54" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/akz" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.MiniPlayBarContainer android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/aq8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/aq9" android:background="@drawable/m4" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/ir" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <com.netease.cloudmusic.ui.MiniPlayPauseButton android:id="@id/aq_" android:background="@drawable/m4" android:layout_width="wrap_content" android:layout_height="@dimen/ir" android:layout_marginRight="@dimen/is" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/bi_" app:nightSpecialForegroundColor="@color/dc" />
+    <com.netease.cloudmusic.ui.MiniPlayBarInfoLayout android:id="@id/aqa" android:fadingEdge="horizontal" android:fadingEdgeLength="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/aq_" android:layout_alignParentBottom="true" android:contentDescription="@string/bi6" android:requiresFadingEdge="horizontal" />
+</com.netease.cloudmusic.ui.MiniPlayBarContainer>

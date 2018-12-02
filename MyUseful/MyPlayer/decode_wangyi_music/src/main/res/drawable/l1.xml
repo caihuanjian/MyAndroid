@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/yc" />
+    <item android:duration="200" android:drawable="@drawable/yi" />
+    <item android:duration="200" android:drawable="@drawable/yj" />
+    <item android:duration="200" android:drawable="@drawable/yk" />
+    <item android:duration="200" android:drawable="@drawable/yl" />
+    <item android:duration="200" android:drawable="@drawable/ym" />
+    <item android:duration="200" android:drawable="@drawable/yn" />
+    <item android:duration="200" android:drawable="@drawable/yo" />
+    <item android:duration="200" android:drawable="@drawable/yp" />
+    <item android:duration="200" android:drawable="@drawable/yd" />
+    <item android:duration="200" android:drawable="@drawable/ye" />
+    <item android:duration="200" android:drawable="@drawable/yf" />
+    <item android:duration="200" android:drawable="@drawable/yg" />
+    <item android:duration="200" android:drawable="@drawable/yh" />
+</animation-list>

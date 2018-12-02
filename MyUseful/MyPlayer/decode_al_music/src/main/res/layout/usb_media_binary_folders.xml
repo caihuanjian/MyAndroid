@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.jess.ui.TwoWayGridView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gravity="center" app:scrollDirectionPortrait="vertical" app:scrollDirectionLandscape="horizontal" app:horizontalSpacing="10.0dip" app:verticalSpacing="8.0dip" app:stretchMode="spacingWidthUniform" app:columnWidth="356.0dip" app:rowHeight="231.0dip" app:numColumns="auto_fit" app:numRows="auto_fit" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="36.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/media_load_info_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

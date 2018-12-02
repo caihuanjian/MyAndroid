@@ -1,0 +1,37 @@
+ext {
+    compileSdkVersion = 27
+    buildToolsVersion = "27.0.3"
+
+    minSdkVersion = 16
+    targetSdkVersion = 22
+
+    supportLib = "27.1.1"
+    constraint_layout = "1.1.2"
+
+    fastjson = '1.2.49'
+    rxandroid = '1.2.1'
+    gson = '2.8.5'
+
+
+    exoplayer = 'r2.4.0' // 解决部分mp4不回调STATE_ENDED
+//    exoplayer = 'r2.1.1'  // AdaptiveVideoTrackSelection rename AdaptiveTrackSelection
+//    exoplayer = '2.9.0'
+    vlc_android_sdk = '2.0.6'
+    ijkplayer = '0.8.0'
+
+    disklrucache = "2.0.2"
+    mp3agic = '0.9.1'    // 读取MP3信息
+    videocache = '2.7.1'     // 边下边播
+}
+/*
+
+compileSdkVersion rootProject.ext.compileSdkVersion
+buildToolsVersion rootProject.ext.buildToolsVersion
+
+minSdkVersion rootProject.ext.minSdkVersion
+targetSdkVersion rootProject.ext.targetSdkVersion
+
+implementation 'com.android.support:appcompat-v7:'+rootProject.ext.supportLib
+implementation 'com.android.support:appcompat-v4:'+rootProject.ext.supportLib
+*/
+

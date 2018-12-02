@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/musicItemRealItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/song_rank_container_layout" />
+    <ViewStub android:id="@id/aql" android:layout="@layout/pe" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" />
+    <include layout="@layout/song_name_and_info_area_layout" />
+    <ViewStub android:id="@id/aqm" android:layout="@layout/ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" />
+    <ViewStub android:id="@id/aqn" android:layout="@layout/te" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost android:id="@android:id/tabhost" android:background="@drawable/music_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip">
+        <RelativeLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <TextView android:textSize="34.0sp" android:textColor="@color/media_title" android:gravity="center_vertical" android:id="@id/menu_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/media_title_usb_music" android:drawablePadding="21.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/media_menu_indicator" android:paddingStart="19.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="25.0dip" />
+            <ImageButton android:gravity="center" android:id="@id/back" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="116.0dip" android:layout_height="fill_parent" android:src="@drawable/media_back" android:scaleType="centerInside" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="25.0dip" />
+            <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:id="@id/sub_layer_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TabWidget android:layout_gravity="bottom" android:id="@android:id/tabs" android:layout_width="730.0dip" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="88.0dip" android:layout_below="@id/tab_layout" />
+    </RelativeLayout>
+</android.support.v4.app.FragmentTabHost>

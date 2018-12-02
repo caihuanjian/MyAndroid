@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/fp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/fq" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fr" android:layout_width="fill_parent" android:layout_height="@dimen/kv">
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/e4" layout="@layout/common_pagersliding_tablayout" />
+    </FrameLayout>
+    <ViewStub android:id="@id/fs" android:layout="@layout/r6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/fr" android:layout_alignParentRight="true" />
+    <include layout="@layout/toolbar" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/b5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/a2s" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/e6" android:paddingLeft="20.0dip" android:paddingTop="2.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_below="@id/b5x">
+            <TextView android:textSize="17.0sp" android:textColor="#ff333333" android:id="@id/b5y" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="title" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:id="@id/b5z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="content" android:lineSpacingMultiplier="1.2" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/b60" android:layout_width="fill_parent" android:layout_height="@dimen/np" android:layout_marginTop="20.0dip" android:text="update" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

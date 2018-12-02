@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a_u" android:background="@drawable/list_selector" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="134.66998dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicRoundedSimpleDraweeView android:id="@id/a9t" android:layout_width="118.66998dip" android:layout_height="118.66998dip" app:placeholderImage="@drawable/placeholder_disk_180" app:placeholderImageScaleType="dj" app:overlayImage="@drawable/uk" app:pressedStateOverlayImage="@color/gi" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="10.0sp" android:textColor="@color/dx" android:id="@id/a9u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" android:text="@string/bbr" android:layout_alignLeft="@id/a9t" android:layout_alignBottom="@id/a9t" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:paddingRight="@dimen/er" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/a9t" android:layout_centerVertical="true">
+        <include android:id="@id/a_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_centerVertical="true" layout="@layout/billboard_content" />
+        <include android:id="@id/a_w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_centerVertical="true" layout="@layout/billboard_content" />
+        <include android:id="@id/a_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/billboard_content" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

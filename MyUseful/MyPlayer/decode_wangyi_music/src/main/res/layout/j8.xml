@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ff888888" android:ellipsize="start" android:gravity="center_vertical" android:id="@id/aeg" android:paddingLeft="@dimen/gi" android:paddingRight="@dimen/gj" android:layout_width="fill_parent" android:layout_height="40.0dip" android:singleLine="true" android:drawableLeft="@drawable/ahm" android:drawablePadding="10.0dip" app:nightSpecialOnlyForNewOpen="true" app:needApplyDrawableColor="true" />
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_pagelistview" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/aeh" android:layout_width="fill_parent" android:layout_height="54.0dip" android:text="@string/a79" android:drawableTop="@drawable/qr" android:layout_weight="0.0" style="@style/musicListManageTextView" />
+</LinearLayout>

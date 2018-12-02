@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="18.0sp" android:textColor="@color/do" android:gravity="center_vertical" android:id="@id/fm" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="18.0dip" android:text="@string/a15" android:lineSpacingMultiplier="1.2" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textColor="@color/ds" android:gravity="center" android:id="@id/fn" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abs" android:layout_alignTop="@id/fm" android:layout_alignBottom="@id/fm" android:layout_alignParentRight="true" />
+    <com.netease.cloudmusic.ui.PagerListView android:id="@id/fo" android:fadingEdge="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="@null" android:layout_below="@id/fm" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-10.0dip"
+        android:layout_marginTop="-5.0dip"
+        android:src="@drawable/bg_1" />
+
+    <ImageView
+        android:id="@id/play_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50.0dip"
+        android:layout_marginTop="-2.0dip"
+        android:src="@drawable/bt_music_pause" />
+
+    <ImageView
+        android:id="@id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2.0dip"
+        android:layout_marginTop="56.0dip"
+        android:src="@drawable/bt_music_prev" />
+
+    <ImageView
+        android:id="@id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/prev"
+        android:layout_marginLeft="244.0dip"
+        android:src="@drawable/bt_music_next" />
+
+    <ImageView
+        android:id="@id/device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52.0dip"
+        android:layout_marginTop="246.0dip"
+        android:src="@drawable/bt_music_device" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="122.0dip"
+        android:layout_marginTop="122.0dip"
+        android:src="@drawable/bt_music_icon" />
+</RelativeLayout>

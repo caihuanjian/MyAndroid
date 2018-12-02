@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/a55" android:background="@drawable/e5" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:id="@id/a56" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/awj" android:singleLine="true" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff888888" android:id="@id/a57" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:text="@string/awk" android:minLines="2" android:layout_below="@id/a56" android:lineSpacingExtra="5.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/a58" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/a57" app:buttonType="cq" />
+    </RelativeLayout>
+</ScrollView>

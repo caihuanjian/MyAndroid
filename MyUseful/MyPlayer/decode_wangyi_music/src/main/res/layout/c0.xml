@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.xjy.android.nova.widget.NovaRecyclerView android:id="@id/ps" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/jz" />
+    <View android:id="@id/pt" android:background="#99000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/jz" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/pu" android:paddingTop="80.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ab2" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:id="@id/pv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/ai0" />
+    </LinearLayout>
+</RelativeLayout>

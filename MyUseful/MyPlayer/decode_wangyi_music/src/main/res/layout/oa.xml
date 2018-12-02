@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/afh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/aqu" android:text="@string/a_4" android:drawableTop="@drawable/qn" style="@style/musicListManageTextView" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/aqv" android:text="@string/by" android:drawableTop="@drawable/qf" style="@style/musicListManageTextView" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/aqw" android:visibility="gone" android:text="@string/aa5" android:drawableTop="@drawable/qt" style="@style/musicListManageTextView" />
+    <ViewStub android:id="@id/aqx" android:layout="@layout/o_" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/aqy" android:text="@string/i9" android:drawableTop="@drawable/ql" style="@style/musicListManageTextView" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:id="@id/aqz" android:text="@string/r4" android:drawableTop="@drawable/qm" style="@style/musicListManageTextView" />
+</LinearLayout>

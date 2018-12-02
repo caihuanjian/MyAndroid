@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aud" android:background="@drawable/vt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aue" android:layout_width="@dimen/oc" android:layout_height="@dimen/oc" android:layout_marginLeft="10.0dip" android:src="@drawable/am_" android:scaleType="centerCrop" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="13.299988sp" android:textColor="#ffffffff" android:id="@id/auf" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/f7" android:singleLine="true" android:shadowColor="#4d000000" android:shadowDy="1.0" android:shadowRadius="0.5" android:drawableLeft="@drawable/vz" android:drawablePadding="4.0dip" />
+        <ProgressBar android:id="@id/aug" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" android:progressDrawable="@drawable/lx" style="?android:attr/progressBarStyleHorizontal" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+            <ImageView android:id="@id/auh" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lz" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/aui" android:layout_width="37.69998dip" android:layout_height="37.69998dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/lv" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/auj" android:layout_width="32.299988dip" android:layout_height="32.299988dip" android:src="@drawable/lw" android:scaleType="centerCrop" android:layout_toLeftOf="@id/aui" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/auk" android:layout_width="32.299988dip" android:layout_height="32.299988dip" android:src="@drawable/lt" android:scaleType="centerCrop" android:layout_toRightOf="@id/aui" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/aul" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ly" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/aum" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lb" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeEditText android:textSize="16.0sp" android:id="@id/hh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="46.0dip" android:layout_marginRight="16.0dip" android:maxLength="11" android:drawableLeft="@drawable/a85" android:drawablePadding="42.0dip" android:layout_below="@id/ea" android:inputType="phone" android:imeOptions="actionGo" />
+    <TextView android:textSize="16.0sp" android:id="@id/ac0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginBottom="7.0dip" android:text="@string/ln" android:layout_alignLeft="@id/hh" android:layout_alignBottom="@id/hh" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:gravity="center" android:id="@id/ac1" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/afo" android:layout_below="@id/hh" app:buttonType="cq" />
+</RelativeLayout>

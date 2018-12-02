@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.HackyDrawerLayout android:id="@id/o0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/o1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/o2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.Toolbar android:id="@id/jz" android:background="?f1" android:layout_width="fill_parent" android:layout_height="?dc" app:contentInsetStart="0.0dip" app:layout_scrollFlags="bh|bk">
+                <ImageView android:id="@id/o3" android:background="@drawable/m4" android:layout_width="?dc" android:layout_height="?dc" android:src="@drawable/p_" android:scaleType="centerInside" android:contentDescription="@string/bi2" />
+                <org.xjy.android.nova.widget.ColorTabLayout android:layout_gravity="center" android:id="@id/o4" android:layout_width="wrap_content" android:layout_height="fill_parent" app:tabIndicatorHeight="2.0dip" />
+            </android.support.v7.widget.Toolbar>
+            <FrameLayout android:id="@id/o5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/o6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.design.internal.ScrimInsetsFrameLayout android:layout_gravity="start" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="fill_parent" app:insetForeground="@null">
+        <include layout="@layout/main_drawer_scrollerview" />
+        <include layout="@layout/main_drawer_bottom_container" />
+    </android.support.design.internal.ScrimInsetsFrameLayout>
+</com.netease.cloudmusic.ui.HackyDrawerLayout>

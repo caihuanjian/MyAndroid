@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Widget.SeekBar.Normal" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">42.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">\@drawable/seekbar_horizontal_bt &lt;item name="android:minHeight">42dp&lt;/item>&lt;item name="android:thumb">@drawable/volume_point_bt&lt;/item> &lt;item name="android:thumbOffset">20dip&lt;/item></item>
+    </style>
+    <style name="ActivityTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/music_background</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ActivityThemePic" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/music_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="appTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="noAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="SingleLineText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="BottomText">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <style name="dialog_anim_slide_left" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_slide_left</item>
+    </style>
+    <style name="dialog_anim_slide_up" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_slide_up</item>
+    </style>
+    <style name="dialog_anim_fade_out" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_fade_out</item>
+    </style>
+    <style name="x55Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:gravity">center</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="activityDialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="NetTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="dialog_style_fullscreen" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ActivityThemed" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/music_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

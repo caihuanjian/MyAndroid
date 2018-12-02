@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="i">25.0dip</dimen>
+    <dimen name="j">168.0dip</dimen>
+    <dimen name="k">195.0dip</dimen>
+    <dimen name="ai">73.0dip</dimen>
+    <dimen name="og">178.0dip</dimen>
+    <dimen name="oh">30.0dip</dimen>
+    <dimen name="oi">277.0dip</dimen>
+    <dimen name="oj">145.0dip</dimen>
+    <dimen name="ok">90.0dip</dimen>
+    <dimen name="ol">62.0dip</dimen>
+    <item type="dimen" name="om">@dimen/on</item>
+    <dimen name="on">60.0dip</dimen>
+    <dimen name="oo">11.0dip</dimen>
+    <dimen name="op">15.0dip</dimen>
+    <dimen name="oq">10.0dip</dimen>
+    <dimen name="or">84.0dip</dimen>
+    <dimen name="os">7.0dip</dimen>
+    <dimen name="ot">16.0dip</dimen>
+    <dimen name="ou">22.0dip</dimen>
+    <dimen name="ov">18.0dip</dimen>
+    <dimen name="ow">260.66406dip</dimen>
+    <dimen name="ox">124.0dip</dimen>
+    <dimen name="oy">54.0dip</dimen>
+    <dimen name="oz">32.0dip</dimen>
+    <dimen name="p0">26.0dip</dimen>
+    <dimen name="p1">130.0dip</dimen>
+    <dimen name="p2">65.0dip</dimen>
+    <dimen name="p3">463.0dip</dimen>
+</resources>

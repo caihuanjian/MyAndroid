@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/it" android:paddingRight="11.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/privatemsg_detail_item_timeline_layout" />
+    <include layout="@layout/privatemsg_detail_item_vface_layout" />
+    <include layout="@layout/privatemsg_detail_item_name_layout" />
+    <LinearLayout android:id="@id/ajh" style="@style/privateMsgMainContainer">
+        <include layout="@layout/privatemsg_detail_item_textcontent_layout" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ax2" style="@style/privateMsgAttachedContainer">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.netease.cloudmusic.ui.AvatarImage android:layout_gravity="center" android:id="@id/ax3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" app:avatarStyle="bx" />
+                <com.netease.cloudmusic.ui.NeteaseMusicRoundedSimpleDraweeView android:layout_gravity="center" android:id="@id/ax4" android:layout_width="@dimen/ki" android:layout_height="@dimen/ki" app:placeholderImage="@drawable/ac8" app:placeholderImageScaleType="dj" app:actualImageScaleType="dj" app:overlayImage="@drawable/uf" />
+            </FrameLayout>
+            <RelativeLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ax5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kj" android:layout_weight="1.0">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="@color/do" android:id="@id/ax6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:needApplyOtherThemeColor="false" />
+                <ImageView android:id="@id/ax7" android:layout_width="8.0dip" android:layout_height="13.329987dip" android:src="@drawable/a3x" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/gv" android:paddingLeft="13.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playlist="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="@dimen/gn" android:textColor="@color/do" android:id="@id/rv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <ImageView android:id="@id/b1e" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/iv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b04" android:paddingBottom="2.0dip" android:layout_marginLeft="0.0dip" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b07" playlist:nightSpecialDrawableColor="#33ffffff" playlist:needApplyDrawableColor="true" playlist:needApplyNormalDrawableColor="false" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b08" playlist:nightSpecialDrawableColor="#33ffffff" playlist:needApplyDrawableColor="true" playlist:needApplyNormalDrawableColor="false" style="@style/radioDetailItemIconTv" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b1f" android:visibility="gone" playlist:nightSpecialDrawableColor="#33ffffff" playlist:needApplyDrawableColor="true" playlist:needApplyNormalDrawableColor="false" style="@style/radioDetailItemIconTv" />
+    </LinearLayout>
+</LinearLayout>

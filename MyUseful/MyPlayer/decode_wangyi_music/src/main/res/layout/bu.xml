@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/oc" android:layout_width="280.0dip" android:layout_height="396.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/od" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.ui.AvatarImage android:id="@id/oe" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarStyle="bx" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/of" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/oe">
+                <TextView android:textSize="@dimen/f0" android:textColor="@color/dq" android:ellipsize="end" android:id="@id/og" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="7.0dip" />
+                <TextView android:textSize="@dimen/f5" android:textColor="@color/dt" android:ellipsize="end" android:id="@id/oh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/oi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_below="@id/od" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ag3" android:layout_alignTop="@id/oi" android:layout_alignBottom="@id/oi" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/du" android:gravity="center_horizontal" android:id="@id/oj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ae7" android:layout_below="@id/oi" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="?dc" layout="@layout/toolbar" />
+</FrameLayout>

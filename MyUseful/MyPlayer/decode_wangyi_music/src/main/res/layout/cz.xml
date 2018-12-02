@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fu" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="90.0dip">
+        <RelativeLayout android:id="@id/xu" android:background="@color/fu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/xv" android:paddingLeft="11.0dip" android:paddingRight="13.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/m8" android:layout_marginTop="43.0dip">
+                <com.netease.cloudmusic.ui.AvatarImage android:id="@id/xw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" app:avatarStyle="bz" />
+                <TextView android:id="@id/xx" android:background="@drawable/xk" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/xy" android:layout_width="@dimen/mb" android:layout_height="@dimen/m9" android:layout_marginTop="@dimen/ma" android:layout_marginBottom="@dimen/m_" android:layout_below="@id/xv" android:layout_centerHorizontal="true" app:placeholderImage="@drawable/xx" app:placeholderImageScaleType="dj" app:actualImageScaleType="dj" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/xz" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginLeft="13.0dip" android:layout_below="@id/xy" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#cdffffff" android:gravity="center" android:id="@id/y0" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="23.0dip" android:layout_marginRight="13.0dip" android:text="@string/bz" android:layout_below="@id/xy" android:layout_alignParentRight="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/y1" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_below="@id/xz" />
+            <LinearLayout android:id="@id/y2" android:paddingLeft="@dimen/js" android:paddingRight="@dimen/js" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_marginTop="@dimen/mc" android:layout_marginBottom="3.0dip" android:layout_below="@id/y1">
+                <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/y3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <View android:layout_gravity="center_vertical" android:background="#33ffffff" android:layout_width="0.6700001dip" android:layout_height="23.0dip" />
+                <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/y4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <View android:layout_gravity="center_vertical" android:background="#33ffffff" android:layout_width="0.6700001dip" android:layout_height="23.0dip" />
+                <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/y5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ViewStub android:id="@id/y6" android:layout="@layout/tj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/y2" />
+        </RelativeLayout>
+    </ScrollView>
+    <View android:background="@color/ax" android:layout_width="fill_parent" android:layout_height="93.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="?dc" layout="@layout/toolbar" />
+    <TextView android:gravity="center_vertical" android:id="@id/y7" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="?dc" android:layout_marginLeft="56.0dip" android:layout_alignBottom="@id/jz" />
+    <View android:background="@drawable/xi" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_alignParentBottom="true" />
+    <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="17.0sp" android:gravity="center_vertical" android:id="@id/y8" android:layout_width="fill_parent" android:layout_height="@dimen/m2" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="20.0dip" android:text="@string/b7h" android:drawablePadding="10.0dip" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/y9" android:layout="@layout/tg" android:layout_width="@dimen/m4" android:layout_height="@dimen/m4" android:layout_marginTop="80.0dip" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+    buildToolsVersion project.buildToolsVersion
+
+    defaultConfig {
+        applicationId "cn.yinxm.playsdk.test"
+        minSdkVersion project.minSdkVersion
+        targetSdkVersion project.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+//            abiFilters "armeabi-v7a"
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+//    sourceSets {
+//        main {
+//            jni.srcDirs = []
+//            jniLibs.srcDirs = ['libs']
+//        }
+//    }
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['libs']
+//        }
+//    }
+}
+
+
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+dependencies {
+    //    compileOnly files('libs/android-27.jar')
+    //    compileOnly files('libs/classes-full-debug.jar')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    //    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:' + project.supportLib
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.exoplayer:exoplayer:' + project.exoplayer
+    //vlc
+    implementation 'de.mrmaffen:vlc-android-sdk:' + project.vlc_android_sdk
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:' + project.ijkplayer
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:' + project.ijkplayer
+    implementation 'com.android.support:support-v4:' + project.supportLib
+    //    api 'com.squareup.retrofit2:retrofit:'+rootProject.ext.retrofit
+    //    api('com.squareup.retrofit2:adapter-rxjava:'+rootProject.ext.adapter_rxjava) {
+    //        exclude group: 'io.reactivex', module: 'rxjava'
+    //        exclude group: 'io.reactivex', module: 'rxandroid'
+    //    }
+    //    api('org.ligboy.retrofit2:converter-fastjson-android:'+rootProject.ext.converter_fastjson_android) {
+    //        exclude group: 'com.alibaba', module: 'fastjson'
+    //    }
+    api 'com.alibaba:fastjson:' + rootProject.ext.fastjson
+    api 'io.reactivex:rxandroid:' + rootProject.ext.rxandroid
+    api 'com.google.code.gson:gson:' + rootProject.ext.gson
+    implementation files('libs/jid3lib-0.6.1.jar')
+    api 'com.jakewharton:disklrucache:' + rootProject.ext.disklrucache
+
+    implementation 'com.mpatric:mp3agic:' + rootProject.ext.mp3agic
+    // 边下边播
+    implementation 'com.danikula:videocache:' + rootProject.ext.videocache
+}
+
+//preBuild {
+//    doLast {
+//        def imlFile = file(project.name + ".iml")
+//        println('Change ' + project.name + '.iml order')
+//        try {
+//            def parsedXml = (new XmlParser()).parse(imlFile)
+//            def jdkNode = parsedXml.component[1].orderEntry.find { it.'@type' == 'jdk' }
+//            parsedXml.component[1].remove(jdkNode)
+//            def sdkString = "Android API " + android.compileSdkVersion.substring("android-".length()) + " Platform"
+//            new groovy.util.Node(parsedXml.component[1], 'orderEntry', ['type': 'jdk', 'jdkName': sdkString, 'jdkType': 'Android SDK'])
+//            groovy.xml.XmlUtil.serialize(parsedXml, new FileOutputStream(imlFile))
+//        } catch (FileNotFoundException e) {
+//            // nop, iml not found
+//        }
+//    }
+//}

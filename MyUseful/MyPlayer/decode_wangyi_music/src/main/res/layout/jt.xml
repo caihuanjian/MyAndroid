@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/afo" android:layout_marginTop="@dimen/js" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:layout_width="0.0dip" android:text="@string/ar8" android:layout_weight="1.0" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.ui.AvatarImage android:id="@id/afp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarStyle="by" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/afq" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:layout_width="0.0dip" android:text="@string/ar9" android:layout_weight="1.0" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/afr" android:layout_width="@dimen/kp" android:layout_height="@dimen/kp" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/afs" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/afq" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/aft" style="@style/profileModifyEditableText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/afu" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/z5" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/afv" style="@style/profileModifyEditableText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/oi" app:bgType="d0" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:layout_width="0.0dip" android:text="@string/i8" android:layout_weight="1.0" style="@style/profileModifyDescriptionText" />
+            <ImageView android:id="@id/afw" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/afx" android:layout_marginTop="@dimen/js" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/iq" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/afy" android:hint="@string/aie" style="@style/profileModifyEditableText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/afz" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/a83" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/ag0" style="@style/profileModifyEditableText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/ag1" app:bgType="d0" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/b0v" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/ag2" android:hint="@string/ahu" style="@style/profileModifyEditableText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/du" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/arj" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_height="wrap_content" app:bgType="d0" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:layout_width="wrap_content" android:text="@string/b5z" android:layout_weight="0.0" style="@style/profileModifyDescriptionText" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/ag3" android:layout_width="0.0dip" android:layout_marginLeft="49.0dip" android:hint="@string/arg" android:layout_weight="1.0" style="@style/profileModifyEditableText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/ws" android:layout_marginTop="@dimen/js" app:bgPaddingLeft="14.0dip" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/am_" style="@style/profileModifyDescriptionText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/ag4" app:bgPaddingLeft="14.0dip" app:bgType="d0" style="@style/profileModifyItemContainerWithoutImage">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/ard" style="@style/profileModifyDescriptionText" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/aaq" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ez">
+        <View android:id="@id/aas" android:background="#66000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ez" />
+        <LinearLayout android:orientation="vertical" android:id="@id/aat" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.netease.cloudmusic.module.lyric.floatlyric.FloatLyricView android:id="@id/aau" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.netease.cloudmusic.module.lyric.floatlyric.FloatLyricView android:id="@id/aav" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/aaw" android:background="@drawable/bl" android:visibility="invisible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/wu" android:scaleType="centerInside" />
+        <ImageView android:id="@id/aax" android:background="@drawable/bl" android:visibility="invisible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/wl" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/aay" android:background="#66000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aaz" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <ImageView android:gravity="center" android:id="@id/ab0" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wo" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ab1" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ws" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ab2" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wr" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ab3" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wp" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ab4" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wt" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ab5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <ImageView android:id="@id/ab6" android:layout_marginLeft="24.0dip" style="@style/floatLyricColorViewStyle" />
+            <ImageView android:id="@id/ab7" style="@style/floatLyricColorViewStyle" />
+            <ImageView android:id="@id/ab8" style="@style/floatLyricColorViewStyle" />
+            <ImageView android:id="@id/ab9" style="@style/floatLyricColorViewStyle" />
+            <ImageView android:id="@id/ab_" android:layout_marginRight="8.0dip" style="@style/floatLyricColorViewStyle" />
+            <ImageView android:id="@id/aba" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/wn" android:scaleType="center" android:layout_weight="1.0" />
+            <ImageView android:id="@id/abb" android:background="@drawable/bl" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="9.329987dip" android:src="@drawable/wm" android:scaleType="center" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

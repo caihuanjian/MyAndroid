@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeFrameLayout style="@style/drawerContainerStyle">
+    <include layout="@layout/layout_main_drawer_item_title" />
+</com.netease.cloudmusic.theme.ui.CustomThemeFrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/fi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ul" android:background="@color/fj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.netease.cloudmusic.theme.ui.CustomBackgroundTextView android:textSize="13.0sp" android:textColor="@color/hg" android:gravity="center_horizontal" android:id="@id/um" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmv" android:layout_weight="1.0" app:needBackground="false" />
+        <com.netease.cloudmusic.theme.ui.CustomBackgroundTextView android:textSize="13.0sp" android:textColor="@color/hg" android:gravity="center_horizontal" android:id="@id/un" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bod" android:layout_weight="1.0" app:needBackground="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/uo" android:background="@color/fi" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ul" />
+</RelativeLayout>

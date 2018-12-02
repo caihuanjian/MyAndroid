@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/ds" android:id="@id/aww" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/kk" android:layout_marginTop="@dimen/kl" android:layout_toRightOf="@id/awy" android:layout_below="@id/awx"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

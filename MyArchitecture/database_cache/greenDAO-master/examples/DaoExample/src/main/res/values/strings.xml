@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">greenDAO Note Example</string>
+
+    <string name="enter_new_note">多个参数中间用|分隔</string>
+    <string name="add">添加</string>
+    <string name="click_to_remove">点击条目删除</string>
+    <string name="clear">清空</string>
+    <string name="query">查询</string>
+    <string name="update">修改</string>
+    <string name="replace">Replace，已存在更新，否则插入</string>
+    <string name="add_batch">批量添加</string>
+
+</resources>

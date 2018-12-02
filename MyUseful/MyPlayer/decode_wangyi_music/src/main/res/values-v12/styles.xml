@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a7" parent="@style/p3" />
+    <style name="a8" parent="@style/p4" />
+    <style name="p3" parent="@style/ee">
+        <item name="android:textCursorDrawable">@drawable/a7</item>
+    </style>
+    <style name="p4" parent="@style/ef">
+        <item name="android:textCursorDrawable">@drawable/a7</item>
+    </style>
+</resources>

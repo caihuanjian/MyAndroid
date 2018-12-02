@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/playlist_bottom_sheet_dialog_listview_header_layout" />
+    <include layout="@layout/bottom_sheet_dialog_listview" />
+</LinearLayout>

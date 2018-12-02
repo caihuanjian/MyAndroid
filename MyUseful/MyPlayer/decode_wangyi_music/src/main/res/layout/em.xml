@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout app:cmRoundedCorner="@dimen/ft" app:forCard="true" app:bgType="d0" style="@style/track_rcmd_container_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/track_rcmd_user_artist_reject_icon" />
+    <include layout="@layout/track_rcmd_user_artist_avatar" />
+    <include layout="@layout/track_rcmd_user_artist_name" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0dip" android:textColor="@color/dp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/a3l" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="4.0dip" android:maxLines="2" android:lineSpacingExtra="4.0dip" />
+    <include layout="@layout/track_rcmd_user_artist_follow_btn" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingLeft="10.0dip" android:paddingTop="16.0dip" android:paddingRight="1.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="57.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewForPlayList android:textSize="13.0sp" android:textColor="@color/do" android:gravity="center" android:id="@id/aa9" android:paddingLeft="14.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="29.0dip" android:text="@string/bnt" android:drawablePadding="10.0dip" app:drawableRightCompat="@drawable/g8" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/aa_" style="@style/playlistTagStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="@color/e8" android:layout_width="0.33000004dip" android:layout_height="14.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/aaa" style="@style/playlistTagStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:background="@color/e8" android:layout_width="0.33000004dip" android:layout_height="14.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/aab" style="@style/playlistTagStyle" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>推荐</item>
+        <item>歌曲分类</item>
+        <item>本地音乐</item>
+    </string-array>
+    <string-array name="b">
+        <item>推荐铃声</item>
+        <item>本地音乐</item>
+    </string-array>
+    <string-array name="c">
+        <item>按发行时间排序</item>
+        <item>按热度排序</item>
+        <item>按类型排序</item>
+    </string-array>
+    <string-array name="d">
+        <item>华语</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="e">
+        <item>music.163.com</item>
+        <item>qa.igame.163.com</item>
+        <item>igame.163.com</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="f">
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+        <item>牡羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+    </string-array>
+    <string-array name="g">
+        <item>单曲</item>
+        <item>电台节目</item>
+        <item>视频</item>
+        <item>下载中</item>
+    </string-array>
+    <string-array name="h">
+        <item>推荐</item>
+        <item>朋友</item>
+        <item>电台</item>
+    </string-array>
+    <string-array name="i">
+        <item>垃圾桶</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="j">
+        <item>私人FM</item>
+        <item>FM</item>
+        <item>我的FM</item>
+    </string-array>
+    <string-array name="k">
+        <item>喜欢</item>
+        <item>收藏</item>
+    </string-array>
+    <string-array name="l">
+        <item>本地音乐</item>
+        <item>本地</item>
+        <item>本地歌曲</item>
+    </string-array>
+    <string-array name="m">
+        <item>我的歌单</item>
+        <item>歌单</item>
+    </string-array>
+    <string-array name="n">
+        <item>下一首</item>
+        <item>下一曲</item>
+        <item>切歌</item>
+    </string-array>
+    <string-array name="o">
+        <item>暂停</item>
+        <item>停止播放</item>
+    </string-array>
+    <string-array name="p">
+        <item>播放</item>
+        <item>开始播放</item>
+    </string-array>
+    <string-array name="q">
+        <item>上一首</item>
+        <item>上一曲</item>
+    </string-array>
+    <string-array name="r">
+        <item>不喜欢</item>
+        <item>不收藏</item>
+    </string-array>
+    <string-array name="s">
+        <item>关注</item>
+        <item>粉丝</item>
+        <item>添加好友</item>
+    </string-array>
+    <string-array name="t">
+        <item>关注</item>
+        <item>粉丝</item>
+    </string-array>
+    <string-array name="u">
+        <item>听歌识曲</item>
+        <item>哼唱识曲</item>
+    </string-array>
+    <string-array name="v">
+        <item>正在识别音乐…</item>
+        <item>越近越容易识别</item>
+        <item>安静环境识别更准</item>
+        <item>可以多唱几段试试</item>
+    </string-array>
+    <string-array name="w">
+        <item>正在识别音乐…</item>
+        <item>越近越容易识别</item>
+        <item>人声哼唱请用哼唱识别</item>
+        <item>安静环境识别更准</item>
+    </string-array>
+    <string-array name="x">
+        <item>最近一周</item>
+        <item>所有时间</item>
+    </string-array>
+    <string-array name="y">
+        <item>按专辑名</item>
+        <item>按歌曲数量</item>
+    </string-array>
+    <string-array name="z">
+        <item>按歌手名</item>
+        <item>按歌曲数量</item>
+    </string-array>
+    <string-array name="a0">
+        <item>按文件夹名</item>
+        <item>按歌曲数量</item>
+    </string-array>
+    <string-array name="a1">
+        <item>Android/data/com.netease.cloudmusic</item>
+        <item>netease</item>
+        <item>netease/cloudmusic</item>
+        <item>qqmusic</item>
+        <item>Baidu_music</item>
+        <item>kgmusic</item>
+        <item>ttpod</item>
+        <item>KuwoMusic</item>
+        <item>DUOMI</item>
+        <item>xiami</item>
+        <item>iting</item>
+        <item>iMusicBox</item>
+        <item>12530</item>
+        <item>wawa</item>
+        <item>kanjian</item>
+        <item>erdmusic</item>
+        <item>kibey_echo</item>
+        <item>ting</item>
+        <item>183</item>
+        <item>meile_scene</item>
+        <item>LuoFM</item>
+        <item>NubiaMusic</item>
+        <item>LavaRadio</item>
+        <item>QTDownloadRadio</item>
+        <item>AnyRadio</item>
+        <item>BaiduLebo</item>
+        <item>musicx</item>
+        <item>Record</item>
+        <item>Alarm</item>
+        <item>Notifications</item>
+        <item>Ringtones</item>
+        <item>Audio</item>
+        <item>Android/data/com.douban.radio</item>
+        <item>Android/data/com.tecent.radio</item>
+        <item>Android/data/com.ifeng.fhdt</item>
+        <item>Android/data/com.duotin.fm</item>
+        <item>MIUI/music</item>
+    </string-array>
+    <string-array name="a2">
+        <item>@string/f7</item>
+        <item>网易</item>
+        <item>@string/f7</item>
+        <item>QQ音乐</item>
+        <item>百度音乐</item>
+        <item>酷狗音乐</item>
+        <item>天天动听</item>
+        <item>酷我音乐</item>
+        <item>多米音乐</item>
+        <item>虾米音乐</item>
+        <item>爱听4G</item>
+        <item>爱音乐</item>
+        <item>咪咕音乐</item>
+        <item>余音</item>
+        <item>看见音乐</item>
+        <item>耳洞</item>
+        <item>echo回声</item>
+        <item>喜马拉雅FM</item>
+        <item>荔枝FM</item>
+        <item>美乐时光</item>
+        <item>落网</item>
+        <item>Nubia音乐</item>
+        <item>LavaRadio</item>
+        <item>蜻蜓FM</item>
+        <item>优听FM</item>
+        <item>百度乐播</item>
+        <item>MusicX</item>
+        <item>我的录音</item>
+        <item>闹钟铃声</item>
+        <item>短信铃声</item>
+        <item>来电铃声</item>
+        <item>我的音频</item>
+        <item>豆瓣FM</item>
+        <item>企鹅FM</item>
+        <item>凤凰FM</item>
+        <item>多听FM</item>
+        <item>小米音乐</item>
+    </string-array>
+    <string-array name="a3">
+        <item>按添加时间</item>
+        <item>按单曲名</item>
+        <item>按专辑名</item>
+        <item>按歌手名</item>
+    </string-array>
+    <string-array name="a4">
+        <item>单曲</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>文件夹</item>
+    </string-array>
+    <string-array name="a5">
+        <item>\@163.com</item>
+        <item>\@126.com</item>
+        <item>\@yeah.net</item>
+        <item>\@vip.163.com</item>
+        <item>\@vip.126.com</item>
+        <item>\@popo.163.com</item>
+        <item>\@188.com</item>
+        <item>\@qq.com</item>
+        <item>\@yahoo.com</item>
+        <item>\@sina.com</item>
+        <item>\@soho.com</item>
+        <item>\@live.com</item>
+    </string-array>
+    <string-array name="a6">
+        <item>我的</item>
+        <item>发现</item>
+        <item>动态</item>
+    </string-array>
+    <string-array name="a7">
+        <item>私信</item>
+        <item>评论</item>
+        <item>\@我</item>
+        <item>通知</item>
+    </string-array>
+    <string-array name="a8">
+        <item>网易出品</item>
+        <item>内地</item>
+        <item>港台</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="a9">
+        <item>内地</item>
+        <item>港台</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="a_">
+        <item>精选MV</item>
+        <item>排行榜</item>
+        <item>全部MV</item>
+    </string-array>
+    <integer-array name="aa">
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
+    </integer-array>
+    <string-array name="ab">
+        <item>标清</item>
+        <item>高清</item>
+        <item>超清</item>
+        <item>1080P</item>
+    </string-array>
+    <string-array name="ac">
+        <item>手动排序</item>
+        <item>按单曲名</item>
+        <item>按专辑名</item>
+        <item>按歌手名</item>
+    </string-array>
+    <string-array name="ad">
+        <item>新歌推荐</item>
+        <item>华语最新音乐</item>
+        <item>欧美最新音乐</item>
+        <item>韩国最新音乐</item>
+        <item>日本最新音乐</item>
+    </string-array>
+    <string-array name="ae">
+        <item>推荐</item>
+        <item>华语</item>
+        <item>欧美</item>
+        <item>韩国</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="af">
+        <item>默认</item>
+        <item>按单曲名</item>
+        <item>按专辑名</item>
+        <item>按歌手名</item>
+    </string-array>
+    <integer-array name="ag">
+        <item>0</item>
+        <item>128000</item>
+        <item>192000</item>
+        <item>320000</item>
+        <item>999000</item>
+    </integer-array>
+    <integer-array name="ah">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="ai">
+        <item>GEI</item>
+        <item>CANG</item>
+        <item>TAN</item>
+        <item>XIA</item>
+        <item>CHONG</item>
+        <item>ZHE</item>
+    </string-array>
+    <integer-array name="aj">
+        <item>32473</item>
+        <item>34255</item>
+        <item>24377</item>
+        <item>21523</item>
+        <item>37325</item>
+        <item>36825</item>
+    </integer-array>
+    <string-array name="ak">
+        <item>音乐</item>
+        <item>动态</item>
+        <item>关于TA</item>
+    </string-array>
+    <string-array name="al">
+        <item>详情</item>
+        <item>节目</item>
+    </string-array>
+    <string-array name="am">
+        <item>歌曲</item>
+        <item>视频</item>
+    </string-array>
+    <string-array name="an">
+        <item>本地歌曲</item>
+        <item>在线歌曲</item>
+    </string-array>
+    <string-array name="ao">
+        <item>周榜</item>
+        <item>总榜</item>
+    </string-array>
+    <string-array name="ap">
+        <item>单曲</item>
+        <item>视频</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>歌单</item>
+        <item>主播电台</item>
+        <item>用户</item>
+    </string-array>
+    <string-array name="aq">
+        <item>单曲</item>
+    </string-array>
+    <string-array name="ar">
+        <item>单曲</item>
+        <item>歌手</item>
+        <item>专辑</item>
+        <item>歌单</item>
+        <item>主播电台</item>
+    </string-array>
+    <string-array name="as">
+        <item>明星</item>
+        <item>DJ</item>
+    </string-array>
+    <integer-array name="at">
+        <item>192000</item>
+        <item>320000</item>
+        <item>999000</item>
+    </integer-array>
+    <string-array name="au">
+        <item>默认设置</item>
+        <item>硬解优先</item>
+        <item>软解优先</item>
+        <item>系统解码</item>
+    </string-array>
+    <string-array name="av">
+        <item>自动选择解码模式</item>
+        <item>性能好，可能会有兼容问题</item>
+        <item>兼容性好，解码能力受机器性能影响</item>
+        <item>使用手机系统自带解码器</item>
+    </string-array>
+    <string-array name="aw">
+        <item>全部</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ax">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="ay">
+        <item>所有人</item>
+        <item>我关注的人</item>
+        <item>仅自己</item>
+    </string-array>
+    <string-array name="az">
+        <item>不开启</item>
+        <item>10分钟后</item>
+        <item>20分钟后</item>
+        <item>30分钟后</item>
+        <item>45分钟后</item>
+        <item>60分钟后</item>
+        <item>自定义</item>
+    </string-array>
+    <integer-array name="b0">
+        <item>-1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>-2</item>
+    </integer-array>
+    <string-array name="b1">
+        <item>pop.json</item>
+        <item>dance.json</item>
+        <item>blues.json</item>
+        <item>classical.json</item>
+        <item>jazz.json</item>
+        <item>downtempo.json</item>
+        <item>electronic.json</item>
+        <item>rock.json</item>
+        <item>country.json</item>
+        <item>acg.json</item>
+        <item>bass.json</item>
+        <item>strong_bass.json</item>
+        <item>bass_treble.json</item>
+        <item>live.json</item>
+        <item>mid.json</item>
+        <item>soft.json</item>
+        <item>soft_bass.json</item>
+        <item>soft_treble.json</item>
+        <item>heavy_metal.json</item>
+        <item>chinese.json</item>
+        <item>ballad.json</item>
+        <item>hiphop.json</item>
+    </string-array>
+    <string-array name="b2">
+        <item>流行</item>
+        <item>舞曲</item>
+        <item>蓝调</item>
+        <item>古典</item>
+        <item>爵士</item>
+        <item>慢歌</item>
+        <item>电音</item>
+        <item>摇滚</item>
+        <item>乡村</item>
+        <item>ACG</item>
+        <item>低音</item>
+        <item>超重低音</item>
+        <item>低音&amp;高音</item>
+        <item>现场</item>
+        <item>中音</item>
+        <item>柔和</item>
+        <item>柔和低音</item>
+        <item>柔和高音</item>
+        <item>重金属</item>
+        <item>古风</item>
+        <item>民谣</item>
+        <item>说唱</item>
+    </string-array>
+    <string-array name="b3">
+        <item>large_hall.json</item>
+        <item>large_room.json</item>
+        <item>bright_chamber.json</item>
+        <item>vocal_plate.json</item>
+        <item>small_plate.json</item>
+        <item>night_club.json</item>
+        <item>bathroom.json</item>
+        <item>pool.json</item>
+        <item>concrete_venue_1.json</item>
+        <item>recital_hall.json</item>
+    </string-array>
+    <string-array name="b4">
+        <item>无</item>
+        <item>大厅</item>
+        <item>房间</item>
+        <item>教堂</item>
+        <item>声乐板</item>
+        <item>弹簧</item>
+        <item>夜店</item>
+        <item>浴室</item>
+        <item>地下通道</item>
+        <item>演唱会</item>
+        <item>音乐厅</item>
+    </string-array>
+    <string-array name="b5">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+</resources>

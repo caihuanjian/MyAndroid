@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pw" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageSwitcher android:id="@id/na" android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/ol" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/pz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="63.0dip" android:src="@drawable/af_" android:layout_centerHorizontal="true" />
+        <com.netease.cloudmusic.ui.PlayerDiscViewFlipper android:id="@id/q0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.5dip">
+            <com.netease.cloudmusic.ui.RotationRelativeLayout android:layout_gravity="center_horizontal" android:id="@id/q1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/q3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ade" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <com.netease.cloudmusic.ui.PlayerProgramImageView android:id="@id/q2" android:layout_width="@dimen/ow" android:layout_height="@dimen/ow" android:layout_centerInParent="true" fresco:fadeDuration="0" fresco:placeholderImage="@drawable/aco" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" fresco:roundAsCircle="true" />
+            </com.netease.cloudmusic.ui.RotationRelativeLayout>
+            <com.netease.cloudmusic.ui.RotationRelativeLayout android:layout_gravity="center_horizontal" android:id="@id/q4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/q6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ade" android:layout_centerInParent="true" />
+                <com.netease.cloudmusic.ui.PlayerProgramImageView android:id="@id/q5" android:layout_width="@dimen/ow" android:layout_height="@dimen/ow" android:layout_centerInParent="true" fresco:fadeDuration="0" fresco:placeholderImage="@drawable/aco" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" fresco:roundAsCircle="true" />
+            </com.netease.cloudmusic.ui.RotationRelativeLayout>
+        </com.netease.cloudmusic.ui.PlayerDiscViewFlipper>
+        <RelativeLayout android:id="@id/rj" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/rk" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="13.0dip" android:layout_centerVertical="true" fresco:roundedCornerRadius="@dimen/ft" fresco:placeholderImage="@drawable/acf" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="12.0sp" android:textColor="@color/dx" android:gravity="center_vertical" android:id="@id/rl" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginRight="13.0dip" android:text="@string/b8l" android:layout_alignParentRight="true" android:layout_centerVertical="true" fresco:buttonType="cp" />
+            <LinearLayout android:orientation="vertical" android:id="@id/rm" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rl" android:layout_toRightOf="@id/rk" android:layout_centerVertical="true">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/dy" android:id="@id/rn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" fresco:useNotWhiteColorMap="true" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="10.0sp" android:textColor="@color/e0" android:id="@id/ro" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:useNotWhiteColorMap="true" />
+            </LinearLayout>
+            <View android:background="#1effffff" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_alignParentBottom="true" />
+            <View android:background="#1effffff" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rp" android:background="@color/ec" android:paddingBottom="118.66998dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:scrollbars="vertical" android:fadingEdge="vertical" android:fadingEdgeLength="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:requiresFadingEdge="vertical">
+            <LinearLayout android:orientation="vertical" android:id="@id/rq" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/rr" fresco:needApplyDrawableColor="true" fresco:normalDrawableColor="@color/b_" style="@style/playerProgramDetailDesItem" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/rs" fresco:needApplyDrawableColor="true" fresco:normalDrawableColor="@color/b_" style="@style/playerProgramDetailDesItem" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/rt" fresco:needApplyDrawableColor="true" fresco:normalDrawableColor="@color/b_" style="@style/playerProgramDetailDesItem" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ru" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/rv" android:paddingLeft="18.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" fresco:needApplyDrawableColor="true" fresco:normalDrawableColor="@color/b_" />
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/e2" android:id="@id/rw" android:paddingLeft="18.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="15.0dip" fresco:useNotWhiteColorMap="true" />
+                <com.netease.cloudmusic.ui.CommonContentView android:id="@id/rx" android:paddingLeft="18.0dip" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="?dc" layout="@layout/toolbar" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/qs" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/o9">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/aex" />
+        <SeekBar android:id="@id/qt" android:paddingLeft="10.0dip" android:paddingTop="@dimen/kb" android:paddingRight="10.0dip" android:paddingBottom="@dimen/kb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:progress="30" android:progressDrawable="@drawable/l8" android:minHeight="2.0dip" android:thumb="@drawable/afe" android:thumbOffset="3.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/qu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:id="@id/qx" android:layout_width="fill_parent" android:layout_height="@dimen/om">
+            <RelativeLayout android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="@dimen/ov">
+                <ImageView android:id="@id/ry" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="11.0dip" android:src="@drawable/ael" android:scaleType="center" android:importantForAccessibility="noHideDescendants" />
+                <TextView android:textSize="9.0sp" android:id="@id/rz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" android:importantForAccessibility="noHideDescendants" />
+            </RelativeLayout>
+            <ImageView android:id="@id/s0" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="@dimen/ov" android:src="@drawable/ae1" android:scaleType="center" android:contentDescription="@string/bi1" />
+            <RelativeLayout android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="@dimen/ov">
+                <ImageView android:id="@id/r1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/adx" android:scaleType="center" android:importantForAccessibility="noHideDescendants" />
+                <TextView android:textSize="9.0sp" android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:importantForAccessibility="noHideDescendants" />
+            </RelativeLayout>
+            <ImageView android:id="@id/r3" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:src="@drawable/ae1" android:scaleType="center" android:contentDescription="@string/bi7" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="18.669983dip" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="9.0sp" android:textColor="#ccd9d9d9" android:id="@id/r4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+            <com.netease.cloudmusic.ui.PlayerSeekBarNew android:id="@id/r5" android:paddingLeft="3.0dip" android:paddingTop="2.0dip" android:paddingRight="3.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:maxHeight="8.0dip" android:progressDrawable="@drawable/d9" android:minHeight="8.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="9.0sp" android:textColor="#4cd9d9d9" android:id="@id/r6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:clickable="true" android:layout_width="360.0dip" android:layout_height="@dimen/or" android:layout_marginBottom="@dimen/os">
+            <ImageView android:id="@id/r7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:src="@drawable/aej" android:contentDescription="@string/bia" />
+            <ImageView android:id="@id/r8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad4" android:contentDescription="@string/bic" />
+            <ImageView android:id="@id/r9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad2" android:contentDescription="@string/bi_" />
+            <ImageView android:id="@id/r_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:src="@drawable/acy" android:contentDescription="@string/bi8" />
+            <ImageView android:id="@id/ra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aey" android:contentDescription="@string/bi9" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+//        maven {
+//            url 'https://maven.google.com/'
+//            name 'Google'
+//        }
+        google()
+        // 解决gradle plugin升级到3.0后，butterlife Unable to find method 'com.android.build.gradle.api.BaseVariant.getOutputs()Ljava/util/List;'.
+//        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+        // tinkersupport插件
+        classpath "com.tencent.bugly:tinker-support:1.1.1"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+//        maven {
+//            url 'https://maven.google.com/'
+//            name 'Google'
+//
+//        }
+        maven { url 'https://jitpack.io' }
+//        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply from: "config.gradle"

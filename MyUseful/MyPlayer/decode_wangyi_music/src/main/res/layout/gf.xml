@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.ad.AdImpressLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.mainpage.view.MainPageBannerDraweeView android:layout_gravity="center_horizontal" android:id="@id/a6w" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:cmRoundedCorner="@dimen/ft" fresco:fadeDuration="300" fresco:placeholderImage="@drawable/acj" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" fresco:pressedStateOverlayImage="@color/gi" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lw" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="16.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/a71" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:lineSpacingExtra="2.0dip" />
+        <include layout="@layout/discover_dislike_imageview_btn" />
+    </LinearLayout>
+</com.netease.cloudmusic.ui.ad.AdImpressLinearLayout>

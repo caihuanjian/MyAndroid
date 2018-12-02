@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/media_main" android:background="@drawable/appwidget_bg_none" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/usb_music" layout="@layout/media_play_info_remote_view_music" />
+    <include android:id="@id/bt_music" layout="@layout/media_play_info_remote_view_music" />"
+<include android:id="@id/radio" layout="@layout/media_play_info_remote_view_music" />"
+</RelativeLayout>

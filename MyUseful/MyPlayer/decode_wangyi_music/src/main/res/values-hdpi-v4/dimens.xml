@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="i">12.0dip</dimen>
+    <dimen name="j">126.0dip</dimen>
+    <dimen name="k">180.0dip</dimen>
+    <dimen name="og">157.29999dip</dimen>
+    <dimen name="oh">17.0dip</dimen>
+    <dimen name="oi">221.0dip</dimen>
+    <dimen name="oj">116.0dip</dimen>
+    <dimen name="ok">72.0dip</dimen>
+    <dimen name="ol">50.0dip</dimen>
+    <dimen name="om">36.0dip</dimen>
+    <dimen name="on">64.0dip</dimen>
+    <dimen name="oo">0.0dip</dimen>
+    <dimen name="op">3.0dip</dimen>
+    <dimen name="oq">10.0dip</dimen>
+    <dimen name="or">64.0dip</dimen>
+    <dimen name="os">5.3299866dip</dimen>
+    <dimen name="ot">8.0dip</dimen>
+    <dimen name="ou">14.0dip</dimen>
+    <dimen name="ov">12.0dip</dimen>
+    <dimen name="ow">230.0dip</dimen>
+    <dimen name="ox">104.0dip</dimen>
+    <dimen name="oy">43.0dip</dimen>
+    <dimen name="oz">26.0dip</dimen>
+    <dimen name="p0">20.0dip</dimen>
+    <dimen name="p1">104.0dip</dimen>
+    <dimen name="p2">38.0dip</dimen>
+    <dimen name="p3">435.0dip</dimen>
+    <dimen name="p4">36.0dip</dimen>
+    <dimen name="p5">41.0dip</dimen>
+</resources>

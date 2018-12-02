@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.SquarePlaylistDraweeView android:id="@id/a2h" android:background="@drawable/a3_" android:layout_width="wrap_content" android:layout_height="wrap_content" app:placeholderImage="@drawable/placeholder_disk_180" app:placeholderImageScaleType="dj" app:overlayImage="@drawable/ul" app:pressedStateOverlayImage="@color/gi" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/am" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:layout_below="@id/a2h" android:layout_alignLeft="@id/a2h" android:layout_alignRight="@id/a2h" />
+</RelativeLayout>

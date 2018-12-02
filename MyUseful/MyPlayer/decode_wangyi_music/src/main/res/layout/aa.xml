@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_pagelistview" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@android:id/empty" android:visibility="gone" android:layout_alignTop="@id/h6" android:layout_alignBottom="@id/h6" android:layout_centerHorizontal="true" style="@style/emptyContentToastStyle" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

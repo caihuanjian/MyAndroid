@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textColor="@color/ds" android:gravity="center_vertical" android:id="@id/a3n" android:paddingLeft="@dimen/js" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="@string/lw" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/a3o" app:bgType="d0" style="@style/choosePayMethodContainer">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/a3p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a2p" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/akp" style="@style/choosePayMethodDescription" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRadioButton android:layout_gravity="center_vertical" android:id="@id/a3q" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:id="@id/a3r" app:bgType="d0" style="@style/choosePayMethodContainer">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/a3s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a2q" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:text="@string/akq" style="@style/choosePayMethodDescription" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeRadioButton android:layout_gravity="center_vertical" android:id="@id/a3t" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>
+    <View android:id="@id/a3u" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="9.0dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/a3v" android:layout_width="257.0dip" android:layout_height="40.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:text="@string/akr" app:buttonType="cq" />
+</merge>

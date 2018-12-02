@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/ed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ago" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/afd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="@drawable/hg" app:normalForegroundColor="@color/b7" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/do" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fb" android:maxLines="1" android:layout_toRightOf="@id/ed" android:layout_centerVertical="true" />
+</RelativeLayout>

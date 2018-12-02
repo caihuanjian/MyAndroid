@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/notifyAlbumCover" android:layout_width="68.0dip" android:layout_height="76.0dip" android:src="@drawable/placeholder_disk_180" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/NotificationTitle" android:id="@id/notifyTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+            <TextView android:textAppearance="@style/NotificationText" android:id="@id/notifyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <include layout="@layout/player_white_notification_option_layout" />
+    </LinearLayout>
+</RelativeLayout>

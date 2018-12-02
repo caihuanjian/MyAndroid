@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="vertical" android:id="@id/b4j" android:paddingTop="18.0dip" android:paddingBottom="0.0dip" style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/track_interactive_asker_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/b4k" android:paddingLeft="@dimen/na" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.ui.TrackImageView android:layout_marginLeft="0.0dip" style="@style/trackInteractivePicStyle" />
+        <com.netease.cloudmusic.ui.TrackImageView style="@style/trackInteractivePicStyle" />
+        <com.netease.cloudmusic.ui.TrackImageView style="@style/trackInteractivePicStyle" />
+        <com.netease.cloudmusic.ui.MoreTrackImageView style="@style/trackInteractivePicStyle" />
+    </LinearLayout>
+    <include layout="@layout/track_interactive_answer_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip" layout="@layout/track_interact_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

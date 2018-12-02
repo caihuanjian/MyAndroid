@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ac7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.netease.cloudmusic.ui.PagerListView android:id="@id/z0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/m8" android:choiceMode="none" />
+        <ViewStub android:id="@id/ac8" android:layout="@layout/vh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/edit" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.EmotionView android:gravity="center" android:id="@id/a93" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

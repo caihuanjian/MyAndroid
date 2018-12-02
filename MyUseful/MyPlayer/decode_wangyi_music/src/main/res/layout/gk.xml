@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" android:id="@id/a79" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgType="cz"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/a7_" style="@style/mainPageRcmdHeaderContainer">
+        <com.netease.cloudmusic.theme.ui.MainHeaderFMIconImageView android:id="@id/a7a" app:nightSpecialForegroundColor="@color/b3" style="@style/mainPagerRcmdHeaderNormalView" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/a7b" android:text="@string/a1m" style="@style/mainPageRcmdHeaderTextView" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/a7c" style="@style/mainPageRcmdHeaderContainer">
+        <com.netease.cloudmusic.theme.ui.MainHeaderDayIconImageView android:layout_gravity="center_horizontal" android:id="@id/a7d" app:nightSpecialForegroundColor="@color/e2" style="@style/mainPagerRcmdHeaderNormalView" />
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/a7e" android:layout="@layout/gl" android:layout_width="@dimen/hi" android:layout_height="@dimen/hi" android:layout_marginTop="15.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/a7f" style="@style/mainPageRcmdHeaderTextView" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/a7g" style="@style/mainPageRcmdHeaderContainer">
+        <com.netease.cloudmusic.theme.ui.MainHeaderPlaylistIconImageView android:id="@id/a7h" app:nightSpecialForegroundColor="@color/b3" style="@style/mainPagerRcmdHeaderNormalView" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/a7i" android:text="@string/a9l" style="@style/mainPageRcmdHeaderTextView" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/a7j" style="@style/mainPageRcmdHeaderContainer">
+        <com.netease.cloudmusic.theme.ui.MainHeaderBillboardIconImageView android:id="@id/a7k" app:nightSpecialForegroundColor="@color/b3" style="@style/mainPagerRcmdHeaderNormalView" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/a7l" android:text="@string/acb" style="@style/mainPageRcmdHeaderTextView" />
+    </FrameLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/b18" style="@style/mainPageRcmdHeaderContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.RadioHeaderIconImageView android:id="@id/b1c" app:nightSpecialForegroundColor="@color/b3" style="@style/mainPagerRcmdHeaderNormalView" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/b1d" android:text="@string/avm" style="@style/mainPageRcmdHeaderTextView" />
+</FrameLayout>

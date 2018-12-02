@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeIconFABImageView android:layout_gravity="bottom" android:id="@id/ahu" android:layout_width="@dimen/lh" android:layout_height="@dimen/lh" android:layout_marginLeft="@dimen/nm" android:layout_marginRight="@dimen/nm" android:scaleType="center" app:srcCompat="@drawable/er" app:nightSpecialForegroundColor="@color/fs" app:needApplyNormalDrawableColor="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

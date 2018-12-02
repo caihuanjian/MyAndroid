@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pw" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageSwitcher android:id="@id/na" android:background="#ff262626" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/ol" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/py" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/pz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fg" android:src="@drawable/ade" android:layout_centerHorizontal="true" />
+            <com.netease.cloudmusic.ui.PlayerDiscViewFlipper android:id="@id/q0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e7">
+                <com.netease.cloudmusic.ui.RotationRelativeLayout android:layout_gravity="center_horizontal" android:id="@id/q1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/q2" android:layout_width="@dimen/og" android:layout_height="@dimen/og" android:layout_centerInParent="true" fresco:fadeDuration="0" fresco:placeholderImage="@drawable/acp" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" fresco:roundAsCircle="true" />
+                    <ImageView android:id="@id/q3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                </com.netease.cloudmusic.ui.RotationRelativeLayout>
+                <com.netease.cloudmusic.ui.RotationRelativeLayout android:layout_gravity="center_horizontal" android:id="@id/q4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/q5" android:layout_width="@dimen/og" android:layout_height="@dimen/og" android:layout_centerInParent="true" fresco:fadeDuration="0" fresco:placeholderImage="@drawable/acp" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" fresco:roundAsCircle="true" />
+                    <ImageView android:id="@id/q6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add" android:layout_centerInParent="true" />
+                </com.netease.cloudmusic.ui.RotationRelativeLayout>
+            </com.netease.cloudmusic.ui.PlayerDiscViewFlipper>
+            <ImageView android:id="@id/q7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/k_" android:layout_marginRight="55.0dip" android:src="@drawable/af1" android:layout_alignRight="@id/pz" />
+        </RelativeLayout>
+        <View android:id="@id/q8" android:background="@drawable/afc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/q9" android:background="@color/ec" android:paddingBottom="120.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/q_" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.shimmer.ShimmerTextView android:textSize="15.329987sp" android:textColor="#ffd70909" android:gravity="center_horizontal" android:id="@id/qa" android:paddingTop="@dimen/he" android:paddingBottom="@dimen/he" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/hd" android:text="@string/b4c" />
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/qa" layout="@layout/lyricview" />
+            <LinearLayout android:orientation="vertical" android:id="@id/qb" android:visibility="gone" android:layout_width="43.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:id="@id/qc" android:background="@drawable/a_g" android:text="@string/a8q" android:drawableTop="@drawable/a9y" style="@style/userLyricOffsetAdjustView" />
+                <TextView android:id="@id/qd" android:background="@drawable/a_e" android:text="@string/a8s" android:drawableTop="@drawable/a9s" android:drawablePadding="4.0dip" style="@style/userLyricOffsetAdjustView" />
+                <TextView android:id="@id/qe" android:background="@drawable/a_e" android:text="@string/a8r" android:drawableTop="@drawable/a9o" style="@style/userLyricOffsetAdjustView" />
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/qf" android:background="@drawable/a_c" android:layout_width="fill_parent" android:layout_height="49.0dip" android:src="@drawable/a9m" android:scaleType="centerInside" />
+            </LinearLayout>
+            <include layout="@layout/player_lyric_play_curlyric_container" />
+        </RelativeLayout>
+        <ImageView android:id="@id/qg" android:paddingLeft="18.0dip" android:paddingTop="5.0dip" android:paddingRight="18.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a9q" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/qh" android:background="@drawable/a9f" android:visibility="gone" android:layout_width="153.0dip" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:layout_marginBottom="33.329987dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <TextView android:id="@id/qi" android:text="@string/a8z" android:drawableLeft="@drawable/a_0" style="@style/userLyricOptionTextView" />
+            <View android:id="@id/qj" android:background="@drawable/a9g" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/qk" android:text="@string/a92" android:drawableLeft="@drawable/a_1" style="@style/userLyricOptionTextView" />
+            <View android:id="@id/ql" android:background="@drawable/a9g" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/qm" android:text="@string/a90" android:drawableLeft="@drawable/a_7" style="@style/userLyricOptionTextView" />
+            <View android:id="@id/qn" android:background="@drawable/a9g" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/qo" android:text="@string/a94" android:drawableLeft="@drawable/a_9" style="@style/userLyricOptionTextView" />
+            <View android:id="@id/qp" android:background="@drawable/a9g" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/qr" android:text="@string/a91" style="@style/userLyricOptionTextView" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="?dc" layout="@layout/toolbar" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/qs" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/o9">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/aex" />
+        <SeekBar android:id="@id/qt" android:paddingLeft="10.0dip" android:paddingTop="@dimen/kb" android:paddingRight="10.0dip" android:paddingBottom="@dimen/kb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:progress="30" android:progressDrawable="@drawable/l8" android:minHeight="2.0dip" android:thumb="@drawable/afe" android:thumbOffset="3.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/qu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/qv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0sp" android:textColor="#bfffffff" android:gravity="center" android:id="@id/qw" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginBottom="10.0dip" android:text="@string/z9" />
+        <LinearLayout android:gravity="center" android:id="@id/qx" android:layout_width="fill_parent" android:layout_height="@dimen/om">
+            <ImageView android:id="@id/qy" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="@dimen/oo" android:src="@drawable/aeb" android:scaleType="center" android:contentDescription="@string/bie" />
+            <ImageView android:id="@id/qz" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="@dimen/oo" android:src="@drawable/ae1" android:scaleType="center" android:contentDescription="@string/bi1" />
+            <RelativeLayout android:id="@id/r0" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:layout_marginRight="@dimen/oo">
+                <ImageView android:id="@id/r1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/adx" android:scaleType="center" android:importantForAccessibility="noHideDescendants" />
+                <TextView android:textSize="9.0sp" android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" android:importantForAccessibility="noHideDescendants" />
+            </RelativeLayout>
+            <ImageView android:id="@id/r3" android:layout_width="@dimen/on" android:layout_height="fill_parent" android:src="@drawable/aef" android:scaleType="center" android:contentDescription="@string/bi7" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="18.669983dip" android:layout_marginTop="4.0dip">
+            <TextView android:textSize="9.0sp" android:textColor="#ccd9d9d9" android:id="@id/r4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+            <com.netease.cloudmusic.ui.PlayerSeekBarNew android:id="@id/r5" android:paddingLeft="3.0dip" android:paddingTop="2.0dip" android:paddingRight="3.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:maxHeight="8.0dip" android:progressDrawable="@drawable/d9" android:minHeight="8.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="9.0sp" android:textColor="#4cd9d9d9" android:id="@id/r6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:clickable="true" android:layout_width="360.0dip" android:layout_height="@dimen/or" android:layout_marginBottom="@dimen/os">
+            <ImageView android:id="@id/r7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:src="@drawable/ae_" android:contentDescription="@string/bia" />
+            <ImageView android:id="@id/r8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad4" android:contentDescription="@string/bic" />
+            <ImageView android:id="@id/r9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad2" android:contentDescription="@string/bi_" />
+            <ImageView android:id="@id/r_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:src="@drawable/acy" android:contentDescription="@string/bi8" />
+            <ImageView android:id="@id/ra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aey" android:contentDescription="@string/bi9" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/share_excite" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/rb" android:layout="@layout/q6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

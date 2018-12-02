@@ -1,0 +1,3 @@
+include ':app', ':huiliao_vcr_lib',  ':jar_service', ':jar_client'
+include ':aidl_client', ':aidl_server'
+include  ':myapp_server', ':myapp_client'

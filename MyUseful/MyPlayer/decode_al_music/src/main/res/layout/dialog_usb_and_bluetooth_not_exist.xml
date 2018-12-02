@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/dialog_bg" android:layout_width="558.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="28.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="62.0dip" android:text="@string/dialog_title_usb_and_bluetooth_not_exist" android:layout_marginStart="52.0dip" android:layout_marginEnd="52.0dip" />
+        <Button android:textSize="32.0sp" android:textColor="@android:color/white" android:id="@id/yes" android:background="@drawable/dialog_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:layout_marginBottom="38.0dip" android:text="@string/dialog_yes" android:layout_below="@id/title" android:layout_marginStart="81.0dip" />
+        <Button android:textSize="32.0sp" android:textColor="@android:color/white" android:id="@id/no" android:background="@drawable/dialog_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="38.0dip" android:text="@string/dialog_no" android:layout_alignTop="@id/yes" android:layout_marginEnd="81.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

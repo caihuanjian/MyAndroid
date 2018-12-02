@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ajs" android:background="@color/g7" android:layout_width="fill_parent" android:layout_height="395.0dip" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/hd" android:background="@drawable/ak9" android:padding="5.0dip" android:layout_width="277.0dip" android:layout_height="416.0dip" android:layout_centerInParent="true" android:translationY="-4.0dip">
+        <ImageView android:id="@id/ajt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/ah0" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/ak1" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/ahb" android:layout_width="79.0dip" android:layout_height="79.0dip" android:src="@drawable/ak0" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.netease.cloudmusic.ui.IntroduceTitlesView android:id="@id/aju" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_above="@id/hd" />
+</RelativeLayout>

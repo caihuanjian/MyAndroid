@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.PagerListView android:id="@id/ad_" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ada" android:layout_width="fill_parent" android:layout_height="@dimen/iy">
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/do" android:gravity="center" android:layout_gravity="center" android:id="@id/adb" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/iy" android:drawablePadding="9.0dip" android:layout_centerHorizontal="true" />
+    </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/adc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ade" android:background="#f9ffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/adf" android:background="@color/n" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/amr" />
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip android:drawable="@drawable/amx" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:gravity="left" android:drawable="@drawable/amv" android:clipOrientation="horizontal" />
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="145.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.MVDraweeView android:id="@id/ar4" android:layout_width="130.0dip" android:layout_height="73.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" app:placeholderImage="@drawable/acf" app:placeholderImageScaleType="dp" app:actualImageScaleType="dj" app:overlayImage="@drawable/ul" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/js" android:layout_toRightOf="@id/ar4" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="@dimen/gn" android:textColor="@color/do" android:ellipsize="end" android:id="@id/aip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="2.0dip" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeHighlightTextView android:textSize="@dimen/gq" android:textColor="@color/dq" android:id="@id/ar5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gr" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

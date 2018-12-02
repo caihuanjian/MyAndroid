@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.NeteaseMusicWebView android:id="@id/ym" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/jy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a4r" />
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/mi" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/k0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.6699829dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/dg" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.MVDraweeView android:id="@id/a6w" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:placeholderImage="@drawable/acj" fresco:placeholderImageScaleType="dp" fresco:actualImageScaleType="dj" fresco:overlayImage="@drawable/ul" fresco:pressedStateOverlayImage="@color/gi" />
+    <include layout="@layout/main_page_rcmd_grid_textview_primary_layout" />
+    <include layout="@layout/main_page_rcmd_grid_textview_secondly_layout" />
+</LinearLayout>

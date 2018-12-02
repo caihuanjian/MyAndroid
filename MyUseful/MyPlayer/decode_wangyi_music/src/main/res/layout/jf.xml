@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tu" layout="@layout/common_pagersliding_tablayout" />
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/gz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tu" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:id="@id/af3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/emptyContentToastStyle" />
+    <include android:id="@id/ky" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/listview_footer_loading" />
+</RelativeLayout>

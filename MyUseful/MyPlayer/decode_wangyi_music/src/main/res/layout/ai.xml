@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/hg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" app:forCard="true">
+            <ImageView android:id="@id/ea" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="@color/do" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/ky" android:layout_toRightOf="@id/ea" android:layout_centerVertical="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/dq" android:id="@id/hh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/hi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <com.netease.cloudmusic.theme.ui.CustomThemeBackgroundTextView android:text="@string/ak4" style="@style/categoryTitleTv" />
+            <org.xjy.android.nova.widget.NovaRecyclerView android:id="@id/hj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/c6" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/aev" android:background="@color/c6" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/aew" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p5" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lq" android:layout_toRightOf="@id/aew" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.netease.cloudmusic.ui.PagerListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        <View android:background="@drawable/a9l" android:layout_width="fill_parent" android:layout_height="78.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <View android:background="#33ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:id="@id/aex" android:text="@string/b4e" style="@style/lyricChooseButton" />
+        <View android:layout_gravity="center_vertical" android:background="#33ffffff" android:layout_width="1.0px" android:layout_height="22.0dip" />
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:id="@id/aey" android:text="@string/a12" app:hintRadius="6.0dip" app:hintText="N" app:hintTextSize="6.0dip" style="@style/lyricChooseButton" />
+    </LinearLayout>
+</LinearLayout>

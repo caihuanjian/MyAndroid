@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true">
+        <bitmap android:src="@drawable/t3" android:alpha="?android:disabledAlpha" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/so" android:alpha="?android:disabledAlpha" />
+    </item>
+    <item android:state_checked="true" android:id="@id/b8_">
+        <bitmap android:src="@drawable/t3" />
+    </item>
+    <item android:id="@id/b8a">
+        <bitmap android:src="@drawable/so" />
+    </item>
+    <transition android:toId="@id/b8_" android:fromId="@id/b8a">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/so" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sp" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sq" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sr" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/ss" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/st" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/su" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sv" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sw" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sx" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sy" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sz" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/t0" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/t1" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/t2" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/t3" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/b8a" android:fromId="@id/b8_">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/t3" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/s_" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sa" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sb" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sc" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sd" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/se" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sf" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sg" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sh" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/si" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sj" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sk" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sl" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/sm" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/so" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:paddingLeft="0.0dip" android:paddingRight="0.0dip" style="@style/trackViewContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.netease.cloudmusic.ui.AvatarImage android:layout_gravity="center_vertical" android:id="@id/b5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" app:avatarStyle="bz" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/aom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_toRightOf="@id/b5h">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/t_link" android:id="@id/b5i" android:layout_weight="1.0" style="@style/userTrackTvNormalSignleLine" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/dp" android:id="@id/b5j" style="@style/userTrackTvNormalSignleLine" />
+        </LinearLayout>
+        <com.netease.cloudmusic.module.track.viewcomponent.UserRcmdFollowButton android:gravity="center" android:id="@id/b5k" android:layout_width="@dimen/n7" android:layout_height="@dimen/n6" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.module.track.viewcomponent.dynamicmutilview.MultiItemView android:id="@id/b5l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip" app:marginLeft="56.0dip" app:marginRight="10.0dip" app:verticalOffset="20.0dip" app:horizontalOffset="3.0dip" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

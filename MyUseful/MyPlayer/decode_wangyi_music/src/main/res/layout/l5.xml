@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" app:bgPaddingLeft="@dimen/el"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ToggleButton android:id="@id/a60" android:visibility="invisible" android:clickable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:checked="true" android:textOn="" android:textOff="" android:layout_centerVertical="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/ak4" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="超重低音" android:layout_toLeftOf="@id/a" android:layout_toRightOf="@id/a60" android:layout_centerVertical="true" />
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

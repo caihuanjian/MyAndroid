@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/ia" android:paddingRight="@dimen/ia" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ia" android:paddingEnd="@dimen/ia"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:gravity="center_vertical" android:id="@id/apk" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/if" />
+    <TextView android:textSize="@dimen/ih" android:gravity="center_vertical" android:id="@id/am" android:paddingLeft="@dimen/ie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/if" android:paddingStart="@dimen/ie" />
+</LinearLayout>

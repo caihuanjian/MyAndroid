@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgPaddingLeft="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/music_listen" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/a02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:singleLine="true" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="8.0dip" android:textColor="@color/ds" android:id="@id/tv" android:background="@drawable/l6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.0dip" android:text="@string/ac5" android:singleLine="true" android:layout_toRightOf="@id/a02" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/dq" android:id="@id/ak1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/a02" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/dq" android:ellipsize="end" android:id="@id/ak2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:singleLine="true" android:layout_toRightOf="@id/ak1" android:layout_below="@id/a02" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconWithBackgroundImageView android:id="@id/ak3" android:layout_width="54.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" app:srcCompat="@drawable/he" app:needApplyNormalDrawableColor="true" app:normalForegroundColor="@color/b9" app:needUnable="true" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:bgType="d0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true" />
+    <com.netease.cloudmusic.ui.AvatarImage android:id="@id/ea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/hu" app:avatarStyle="bx" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:ellipsize="end" android:id="@id/og" android:layout_marginRight="30.0dip" android:singleLine="true" style="@style/radioMainText" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:ellipsize="end" android:id="@id/b0e" android:layout_marginRight="30.0dip" android:singleLine="true" style="@style/radioSubText" />
+    <ImageView android:id="@id/b0x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hu" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ViewStub android:id="@id/b0y" android:layout="@layout/s5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hu" android:layout_marginRight="@dimen/hu" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/kz" android:layout_alignParentBottom="true" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

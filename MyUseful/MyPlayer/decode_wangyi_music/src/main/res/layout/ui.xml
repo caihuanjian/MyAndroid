@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/a2j" android:layout_width="67.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.AvatarImage android:id="@id/b4p" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatarStyle="by" app:pressable="true" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0dip" android:textColor="@color/dp" android:gravity="center_horizontal" android:id="@id/b4q" android:layout_width="55.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:singleLine="true" />
+</LinearLayout>

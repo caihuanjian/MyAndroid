@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/au4" android:visibility="visible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/au5" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/au6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.netease.cloudmusic.ui.RotateDraweeView android:layout_gravity="center" android:id="@id/au7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ajh" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <com.netease.cloudmusic.ui.RotateDraweeView android:layout_gravity="center" android:id="@id/au8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ajh" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+</RelativeLayout>

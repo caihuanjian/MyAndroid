@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.autolink.media"
+    platformBuildVersionCode="20"
+    platformBuildVersionName="4.4W-1246132">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="young.permission.START_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.NETWORK.RADIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="MediaApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/media_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="kaola_app_id"
+            android:value="ffzex1403" />
+
+        <service
+            android:name="com.autolink.online.radio.server.RadioOnlineServer"
+            android:process=":remote" />
+        <service
+            android:name="com.autolink.online.music.server.MusicOnlineServer"
+            android:process=":remote" />
+
+        <activity
+            android:name=".MediaActivity"
+            android:label="@string/music_player_label"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autolink.media.main_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autolink.media.bt_main_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autolink.media.activity.MusicActivity"
+            android:icon="@drawable/music"
+            android:label="@string/usb_media_name_music"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityThemed">
+            <meta-data
+                android:name="speech_open:music"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autolink.media.activity.BtMusicActivity"
+            android:icon="@drawable/bt_music"
+            android:label="@string/media_title_bt_music"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityThemed">
+            <meta-data
+                android:name="speech_open:btmusic"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autolink.media.activity.NetMusicActivity"
+            android:icon="@drawable/net_music"
+            android:label="@string/media_title_net_music"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityThemed">
+            <meta-data
+                android:name="speech_open:netmusic"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autolink.media.activity.NetRadioActivity"
+            android:icon="@drawable/net_radio"
+            android:label="@string/media_title_net_radio"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityThemed">
+            <meta-data
+                android:name="speech_open:netradio"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autolink.media.activity.RadioActivity"
+            android:icon="@drawable/radio"
+            android:label="@string/media_title_radio"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityThemed">
+            <meta-data
+                android:name="speech_open:radio"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autolink.media.activity.VideoActivity"
+            android:icon="@drawable/video"
+            android:label="@string/media_title_usb_video"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityThemed">
+            <meta-data
+                android:name="speech_open:video"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsbOrBluetoothNotConnectedDialogActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/activityDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autolink.media.usb_and_bluetooth_not_connected_dialog_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoMusicFoundDialogActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/activityDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autolink.media.no_music_found_dialog_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.autolink.media.mvc.model.impl.MediaPlaybackService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.auto.link.music.IMediaPlaybackService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.autolink.media.mvc.model.impl.MediaPlayerIntentService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.autolink.media.mvc.model.impl.MediaPlayerIntentService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.autolink.media.MediaBroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.autolink.media.aidl.service" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autolink.carlifedevice.inserterr" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.autolink.media.debug" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.autolink.x55.bt.music.model.BTMusicService">
+            <intent-filter>
+                <action android:name="com.autolink.x55.bt.music.intent.action.service" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.autolink.x55.bt.music.model.BTMusicSpeechService"
+            android:exported="true">
+            <meta-data
+                android:name="speech_model"
+                android:value="btmusic" />
+        </service>
+
+        <receiver android:name="com.autolink.x55.bt.music.app.BackPlayReceiver">
+            <intent-filter>
+                <action android:name="com.autolink.mediaplay.aidl.service.start" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.autolink.media.service.MusicSpeechService"
+            android:exported="true">
+            <meta-data
+                android:name="speech_model"
+                android:value="music" />
+        </service>
+    </application>
+</manifest>

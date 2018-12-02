@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/a1p" layout="@layout/concert_info_item" />
+    <ViewStub android:id="@id/a1q" android:layout="@layout/lw" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

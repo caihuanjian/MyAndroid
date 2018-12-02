@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a4" parent="@style/pl" />
+    <style name="a5" parent="@style/pm" />
+    <style name="pl" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="pm" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

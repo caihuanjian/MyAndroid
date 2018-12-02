@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeEditText android:textSize="17.0sp" android:textColor="@color/do" android:textColorHint="@color/du" android:gravity="center|left|top" android:id="@id/adg" android:padding="10.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="180.0dip" android:hint="@string/bh_" android:imeOptions="actionSend" android:imeActionLabel="@string/b1t" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <RelativeLayout android:id="@id/ko" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/adh" android:src="@drawable/a_n" app:normalForegroundColor="@color/ds" style="@style/commentIconStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/acn" android:src="@drawable/a_q" android:layout_toRightOf="@id/adh" app:normalForegroundColor="@color/ds" style="@style/commentIconStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/adi" android:src="@drawable/a_o" android:layout_toRightOf="@id/acn" android:layout_centerVertical="true" app:normalForegroundColor="@color/ds" style="@style/commentIconStyle" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="17.0sp" android:textColor="@color/dt" android:gravity="center" android:id="@id/ui" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:text="140" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.EmotionView android:gravity="center" android:id="@id/a93" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

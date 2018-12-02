@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.PlaylistAndAlbumBgView android:id="@id/aa1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" fresco:fadeDuration="618" fresco:actualImageScaleType="dj"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto">
+    <com.mobeta.android.dslv.DragSortListView android:id="@id/af5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@color/bq" android:dividerHeight="0.6700001dip" android:footerDividersEnabled="false" dslv:collapsed_height="2.0dip" dslv:drag_scroll_start="0.33" dslv:max_drag_scroll_speed="0.5" dslv:float_background_color="@android:color/transparent" dslv:remove_mode="d2" dslv:track_drag_sort="false" dslv:float_alpha="0.6" dslv:slide_shuffle_speed="0.3" dslv:drag_enabled="true" dslv:sort_enabled="true" dslv:remove_enabled="false" dslv:drag_start_mode="d3" dslv:drag_handle_id="@id/l" dslv:use_default_controller="true" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/ht" android:layout_alignParentBottom="true" layout="@layout/music_list_manage_bottom_option_bar_layout" />
+</RelativeLayout>

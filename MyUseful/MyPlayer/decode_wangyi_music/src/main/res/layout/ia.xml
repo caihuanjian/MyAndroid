@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseSwipeToRefresh android:id="@id/abd" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_track_pagelistview" />
+    </com.netease.cloudmusic.ui.NeteaseSwipeToRefresh>
+    <com.netease.cloudmusic.theme.ui.CustomTopLineLinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/abe" android:layout_width="fill_parent" android:layout_height="@dimen/co">
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="15.0sp" android:textColor="@color/do" android:gravity="center_vertical" android:id="@id/abf" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawablePadding="6.0dip" android:layout_weight="1.0" app:needApplyDrawableColor="true" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeLine android:layout_gravity="center" android:id="@id/abg" android:layout_width="1.0px" android:layout_height="30.0dip" />
+        <com.netease.cloudmusic.ui.DrawableCenterTextView android:textSize="15.0sp" android:textColor="@color/do" android:gravity="center_vertical" android:id="@id/abh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawablePadding="6.0dip" android:layout_weight="1.0" app:needApplyDrawableColor="true" />
+    </com.netease.cloudmusic.theme.ui.CustomTopLineLinearLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/dy" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/abi" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/fd" android:layout_marginTop="@dimen/fe" android:text="@string/a0u" />
+</FrameLayout>

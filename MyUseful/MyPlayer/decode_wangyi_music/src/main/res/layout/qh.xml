@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/a0z" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/plal_detail_background" />
+    <ScrollView style="@style/pl_album_bigcover_scrollview_style">
+        <LinearLayout android:orientation="vertical" android:id="@id/a10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:layout_gravity="center_horizontal" android:id="@id/a11" android:layout_width="@dimen/k1" android:layout_height="@dimen/k0" android:layout_marginTop="96.0dip" fresco:roundedCornerRadius="@dimen/ft" fresco:placeholderImage="@drawable/acm" fresco:placeholderImageScaleType="dj" fresco:actualImageScaleType="dj" />
+            <include layout="@layout/layout_plal_detail_plalname" />
+            <include layout="@layout/layout_gradual_divider_line" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ave" android:paddingLeft="@dimen/ju" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="13.0sp" android:textColor="@color/gj" android:gravity="center_vertical" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amq" fresco:nightSpecialForegroundColor="@color/df" />
+                <com.netease.cloudmusic.ui.FlowLayout android:id="@id/avf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" fresco:horizontalSpacing="7.0dip" fresco:verticalSpacing="7.0dip" />
+            </LinearLayout>
+            <include layout="@layout/layout_plal_detail_plal_desc" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/close_btn_layout" />
+    <include layout="@layout/layout_plal_btn_container" />
+</RelativeLayout>

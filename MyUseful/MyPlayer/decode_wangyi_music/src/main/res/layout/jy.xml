@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.module.ringtones.view.AudioTrackRangeSeekBar android:id="@id/agq" android:layout_width="fill_parent" android:layout_height="137.0dip" android:layout_alignParentBottom="true" />
+    <com.netease.cloudmusic.module.ringtones.view.LyricViewWithRangeBar android:id="@id/agr" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/agq" />
+</RelativeLayout>

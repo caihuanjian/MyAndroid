@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:gravity="center" android:id="@id/yn" android:background="#80000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/yo" android:layout_width="310.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true">
+        <View android:id="@id/yp" android:layout_width="265.0dip" android:layout_height="185.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/yq" android:background="@drawable/a36" android:layout_width="280.0dip" android:layout_height="180.0dip" android:layout_alignTop="@id/yp" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/yr" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/ie" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:layout_width="fill_parent" android:layout_height="?dc" layout="@layout/toolbar" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.unfoldableLayout.UnfoldableView android:id="@id/ys" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

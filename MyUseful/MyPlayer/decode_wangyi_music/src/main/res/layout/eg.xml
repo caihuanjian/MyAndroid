@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/ge" app:bgPaddingLeft="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.AvatarImage android:id="@id/oe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_centerVertical="true" app:avatarStyle="c0" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeRemoveBlackButton android:id="@id/a38" android:focusable="true" android:layout_marginRight="@dimen/gc" android:text="@string/ayd" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:drawableLeftCompat="@drawable/rx" style="@style/drawableLeftButton" />
+    <LinearLayout android:id="@id/a39" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/a38" android:layout_toRightOf="@id/oe" android:layout_centerVertical="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/vn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

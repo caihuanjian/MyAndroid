@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.LocalVideoView android:id="@id/am7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/am8" android:background="@drawable/ee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textSize="10.0sp" android:textColor="#e6ffffff" android:gravity="center" android:id="@id/am9" android:background="@drawable/ad" android:visibility="gone" android:layout_width="58.0dip" android:layout_height="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/aq6" />
+        <TextView android:textSize="10.0sp" android:textColor="#e6ffffff" android:gravity="center" android:id="@id/am_" android:background="@drawable/ad" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/a5x" />
+        <ImageView android:id="@id/ama" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/a_y" />
+    </LinearLayout>
+</RelativeLayout>

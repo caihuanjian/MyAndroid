@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/it" android:paddingRight="11.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/privatemsg_detail_item_timeline_layout" />
+    <include layout="@layout/privatemsg_detail_item_vface_layout" />
+    <include layout="@layout/privatemsg_detail_item_name_layout" />
+    <FrameLayout android:id="@id/ajh" style="@style/privateMsgMainContainer">
+        <com.netease.cloudmusic.ui.BubbleImage android:id="@id/awz" android:layout_width="wrap_content" android:layout_height="wrap_content" fresco:roundingBorderWidth="0.33000004dip" fresco:roundingBorderColor="@color/hb" />
+        <TextView android:textSize="@dimen/f7" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/ax0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView android:textColor="#ffffffff" android:id="@id/ax1" android:background="@drawable/to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/ajh" android:layout_alignBottom="@id/ajh" />
+</com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>

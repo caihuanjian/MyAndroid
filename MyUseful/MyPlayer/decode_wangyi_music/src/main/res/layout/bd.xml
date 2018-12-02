@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.ui.NeteaseMusicViewPager android:id="@id/l5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/gv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="39.0dip" android:layout_alignParentBottom="true">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/l6" android:layout_width="135.0dip" android:layout_height="40.0dip" android:layout_marginRight="26.0dip" android:text="@string/a8d" app:buttonType="cq" />
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="13.0sp" android:gravity="center" android:id="@id/l7" android:layout_width="135.0dip" android:layout_height="40.0dip" android:text="@string/bd5" app:buttonType="cn" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/l8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/gv" />
+</RelativeLayout>

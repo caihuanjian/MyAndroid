@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/aix" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.VideoViewGestureContainer android:id="@id/xt" android:background="#ff000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.module.video.TextureVideoView android:gravity="center" android:id="@id/lg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </com.netease.cloudmusic.ui.VideoViewGestureContainer>
+    <com.netease.cloudmusic.module.video.VideoMaskView android:id="@id/aiy" android:background="@drawable/un" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/aiz" android:background="@drawable/l9" android:visibility="gone" android:layout_width="@dimen/j6" android:layout_height="@dimen/j5">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:src="@drawable/aav" />
+        <TextView android:textSize="22.0sp" android:textColor="#ccffffff" android:id="@id/aj0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/aj1" android:background="#4c000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/aj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_z" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/aj2" android:layout_centerHorizontal="true">
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/aj3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="#80ffffff" android:id="@id/aj4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/aj3" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:layout_gravity="bottom" android:id="@id/aj5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ix" layout="@layout/media_controller_new" />
+</FrameLayout>

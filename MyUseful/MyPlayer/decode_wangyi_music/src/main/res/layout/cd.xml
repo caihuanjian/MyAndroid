@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/le" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/td" android:layout_width="fill_parent" android:layout_height="@dimen/ml">
+        <ImageView android:id="@id/t2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/po" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="70.0dip" android:layout_height="43.659973dip" android:src="@drawable/agd" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/te" android:layout_width="93.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/ev" android:gravity="center" android:background="@drawable/dh" android:paddingRight="10.0dip" android:layout_width="79.32999dip" android:layout_height="24.0dip" android:layout_marginRight="15.0dip" android:text="@string/auc" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <com.netease.cloudmusic.ui.AvatarImage android:id="@id/tf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:avatarStyle="c0" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/tg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/td" android:layout_centerHorizontal="true" app:placeholderImage="@drawable/ag5" app:placeholderImageScaleType="dj" app:actualImageScaleType="dp" />
+    <RelativeLayout android:id="@id/oc" android:background="@drawable/dp" android:layout_width="fill_parent" android:layout_height="187.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/tg" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/th" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <View android:id="@id/ti" android:background="@color/f2" android:layout_width="0.33000004dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="160.0dip" android:layout_height="66.599976dip" android:layout_toLeftOf="@id/ti">
+                <TextView android:textSize="15.0sp" android:textColor="@color/ey" android:id="@id/tj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aud" />
+                <TextView android:textSize="36.0sp" android:textColor="@color/ez" android:id="@id/tk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aud" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="160.0dip" android:layout_height="66.599976dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/ti">
+                <TextView android:textSize="15.0sp" android:textColor="@color/ey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aul" />
+                <TextView android:textSize="36.0sp" android:textColor="@color/ez" android:id="@id/tl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aud" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="20.0sp" android:textColor="@color/f4" android:gravity="center" android:id="@id/tm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:text="@string/atv" android:layout_alignParentTop="true" />
+        <com.netease.cloudmusic.module.questionlive.view.QLiveButtonView android:textSize="18.0sp" android:gravity="center" android:id="@id/tn" android:layout_width="250.0dip" android:layout_height="50.0dip" android:layout_marginBottom="20.0dip" android:text="@string/au5" android:drawablePadding="6.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:buttonType="cq" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/dp" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/oc" android:layout_centerHorizontal="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/f4" android:id="@id/to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/au7" android:drawableLeft="@drawable/agc" android:drawablePadding="6.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.netease.cloudmusic.module.questionlive.view.QLiveButtonView android:textSize="13.0sp" android:gravity="center" android:id="@id/tp" android:layout_width="91.0dip" android:layout_height="33.0dip" android:layout_marginRight="98.32999dip" android:text="@string/atu" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:buttonType="cn" />
+        <com.netease.cloudmusic.module.questionlive.view.QLiveButtonView android:textSize="13.0sp" android:gravity="center" android:id="@id/tq" android:layout_width="77.0dip" android:layout_height="33.0dip" android:layout_marginRight="15.0dip" android:text="@string/atz" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:buttonType="cn" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/f8" android:id="@id/tr" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="排行榜" />
+        <View android:id="@id/ts" android:background="#33ffffff" android:visibility="gone" android:layout_width="0.33000004dip" android:layout_height="15.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/f8" android:id="@id/tt" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="怎么玩" />
+    </LinearLayout>
+</RelativeLayout>

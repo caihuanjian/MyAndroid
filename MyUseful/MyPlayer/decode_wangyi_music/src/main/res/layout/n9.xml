@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/mainTrackContainerPicStyle">
+    <include layout="@layout/main_page_track_basic_header_info_layout" />
+    <include layout="@layout/main_page_track_desc_layout" />
+    <include layout="@layout/main_page_track_video_component_layout" />
+    <include layout="@layout/main_page_track_interact_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

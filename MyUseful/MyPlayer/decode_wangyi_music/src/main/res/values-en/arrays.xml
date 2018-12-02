@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>Hot</item>
+        <item>Type</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="b">
+        <item>Ringtome</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="c">
+        <item>time</item>
+        <item>popularity</item>
+        <item>type</item>
+    </string-array>
+    <string-array name="d">
+        <item>CN</item>
+        <item>EN</item>
+        <item>KR</item>
+        <item>JP</item>
+    </string-array>
+    <string-array name="e">
+        <item>music.163.com</item>
+        <item>qa.igame.163.com</item>
+        <item>igame.163.com</item>
+        <item>Customize</item>
+    </string-array>
+    <string-array name="f">
+        <item>Aquarius</item>
+        <item>Pisces</item>
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+    </string-array>
+    <string-array name="g">
+        <item>Single</item>
+        <item>Station</item>
+        <item>Video</item>
+        <item>Downloading</item>
+    </string-array>
+    <string-array name="h">
+        <item>Hot</item>
+        <item>Contact</item>
+        <item>Radio</item>
+    </string-array>
+    <string-array name="i">
+        <item>Trash</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="j">
+        <item>PriFM</item>
+        <item>FM</item>
+        <item>My FM</item>
+    </string-array>
+    <string-array name="k">
+        <item>Like</item>
+        <item>Fav</item>
+    </string-array>
+    <string-array name="l">
+        <item>Local</item>
+        <item>Local</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="m">
+        <item>My Mix</item>
+        <item>Mix</item>
+    </string-array>
+    <string-array name="n">
+        <item>Next</item>
+        <item>Next</item>
+        <item>Skip</item>
+    </string-array>
+    <string-array name="o">
+        <item>Pause</item>
+        <item>Stop</item>
+    </string-array>
+    <string-array name="p">
+        <item>Play</item>
+        <item>Start</item>
+    </string-array>
+    <string-array name="q">
+        <item>Last</item>
+        <item>Last</item>
+    </string-array>
+    <string-array name="r">
+        <item>Dislike</item>
+        <item>Not Fav</item>
+    </string-array>
+    <string-array name="s">
+        <item>Follow</item>
+        <item>Follower</item>
+        <item>Connect</item>
+    </string-array>
+    <string-array name="t">
+        <item>Follow</item>
+        <item>Follower</item>
+    </string-array>
+    <string-array name="u">
+        <item>M.I.</item>
+        <item>M.I.R</item>
+    </string-array>
+    <string-array name="v">
+        <item>Recognizing...</item>
+        <item>Get closer to the sound source the easier to catch the result.</item>
+        <item>Make sure you are in a quiet environment to get ideal results.</item>
+        <item>Try another section for a more ideal result.</item>
+    </string-array>
+    <string-array name="w">
+        <item>Recognizing...</item>
+        <item>Get closer to the sound source the easier to catch the result.</item>
+        <item>Humming would help to detect the melody and rhythm.</item>
+        <item>Make sure you are in a quiet environment to get ideal results.</item>
+    </string-array>
+    <string-array name="x">
+        <item>Latest</item>
+        <item>All-time</item>
+    </string-array>
+    <string-array name="y">
+        <item>album</item>
+        <item>quantity</item>
+    </string-array>
+    <string-array name="z">
+        <item>artist</item>
+        <item>quantity</item>
+    </string-array>
+    <string-array name="a0">
+        <item>folder</item>
+        <item>quantity</item>
+    </string-array>
+    <string-array name="a1">
+        <item>Android/data/com.netease.cloudmusic</item>
+        <item>netease</item>
+        <item>netease/cloudmusic</item>
+        <item>qqmusic</item>
+        <item>Baidu_music</item>
+        <item>kgmusic</item>
+        <item>ttpod</item>
+        <item>KuwoMusic</item>
+        <item>DUOMI</item>
+        <item>xiami</item>
+        <item>iting</item>
+        <item>iMusicBox</item>
+        <item>12530</item>
+        <item>wawa</item>
+        <item>kanjian</item>
+        <item>erdmusic</item>
+        <item>kibey_echo</item>
+        <item>ting</item>
+        <item>183</item>
+        <item>meile_scene</item>
+        <item>LuoFM</item>
+        <item>NubiaMusic</item>
+        <item>LavaRadio</item>
+        <item>QTDownloadRadio</item>
+        <item>AnyRadio</item>
+        <item>BaiduLebo</item>
+        <item>musicx</item>
+        <item>Record</item>
+        <item>Alarm</item>
+        <item>Notifications</item>
+        <item>Ringtones</item>
+        <item>Audio</item>
+        <item>Android/data/com.douban.radio</item>
+        <item>Android/data/com.tecent.radio</item>
+        <item>Android/data/com.ifeng.fhdt</item>
+        <item>Android/data/com.duotin.fm</item>
+        <item>MIUI/music</item>
+    </string-array>
+    <string-array name="a2">
+        <item>@string/f7</item>
+        <item>NetEase</item>
+        <item>@string/f7</item>
+        <item>QQMusic</item>
+        <item>BaiduMusic</item>
+        <item>Kugou</item>
+        <item>TTPOD</item>
+        <item>Kuwo</item>
+        <item>Duomi</item>
+        <item>Xiami</item>
+        <item>iTing</item>
+        <item>iMusic</item>
+        <item>Migu</item>
+        <item>余音</item>
+        <item>Kanjian</item>
+        <item>耳洞</item>
+        <item>echo回声</item>
+        <item>XimalayaFM</item>
+        <item>LizhiFM</item>
+        <item>美乐时光</item>
+        <item>落网</item>
+        <item>Nubia音乐</item>
+        <item>LavaRadio</item>
+        <item>QTFM</item>
+        <item>AnyFM</item>
+        <item>BaiduLebo</item>
+        <item>MusicX</item>
+        <item>Record</item>
+        <item>Alarm</item>
+        <item>Notifications</item>
+        <item>Ringtone</item>
+        <item>Music</item>
+        <item>DoubanFM</item>
+        <item>TencentFM</item>
+        <item>iFengFM</item>
+        <item>DuotinFM</item>
+        <item>Mi Music</item>
+    </string-array>
+    <string-array name="a3">
+        <item>time</item>
+        <item>single</item>
+        <item>album</item>
+        <item>artist</item>
+    </string-array>
+    <string-array name="a4">
+        <item>Single</item>
+        <item>Artist</item>
+        <item>Album</item>
+        <item>Folder</item>
+    </string-array>
+    <string-array name="a5">
+        <item>\@163.com</item>
+        <item>\@126.com</item>
+        <item>\@yeah.net</item>
+        <item>\@vip.163.com</item>
+        <item>\@vip.126.com</item>
+        <item>\@popo.163.com</item>
+        <item>\@188.com</item>
+        <item>\@qq.com</item>
+        <item>\@yahoo.com</item>
+        <item>\@sina.com</item>
+        <item>\@soho.com</item>
+        <item>\@live.com</item>
+    </string-array>
+    <string-array name="a6">
+        <item>Mine</item>
+        <item>WOW</item>
+        <item>Feed</item>
+    </string-array>
+    <string-array name="a7">
+        <item>PM</item>
+        <item>Comment</item>
+        <item>\@ me</item>
+        <item>Notification</item>
+    </string-array>
+    <string-array name="a8">
+        <item>NetEase</item>
+        <item>Mainland</item>
+        <item>HK&amp;TW</item>
+        <item>EU&amp;US</item>
+        <item>KR</item>
+        <item>JP</item>
+    </string-array>
+    <string-array name="a9">
+        <item>Mainland</item>
+        <item>HK&amp;TW</item>
+        <item>EU&amp;US</item>
+        <item>KR</item>
+        <item>JP</item>
+    </string-array>
+    <string-array name="a_">
+        <item>Top MV</item>
+        <item>Chart</item>
+        <item>All MV</item>
+    </string-array>
+    <integer-array name="aa">
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1080</item>
+    </integer-array>
+    <string-array name="ab">
+        <item>240P</item>
+        <item>480P</item>
+        <item>720P</item>
+        <item>1080P</item>
+    </string-array>
+    <string-array name="ac">
+        <item>Manual</item>
+        <item>single</item>
+        <item>album</item>
+        <item>artist</item>
+    </string-array>
+    <string-array name="ad">
+        <item>New Release</item>
+        <item>New CN</item>
+        <item>New EN</item>
+        <item>New KR</item>
+        <item>New JP</item>
+    </string-array>
+    <string-array name="ae">
+        <item>Hot</item>
+        <item>CN</item>
+        <item>EN</item>
+        <item>KR</item>
+        <item>JP</item>
+    </string-array>
+    <string-array name="af">
+        <item>Default</item>
+        <item>single</item>
+        <item>album</item>
+        <item>artist</item>
+    </string-array>
+    <integer-array name="ag">
+        <item>0</item>
+        <item>128000</item>
+        <item>192000</item>
+        <item>320000</item>
+        <item>999000</item>
+    </integer-array>
+    <integer-array name="ah">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="ai">
+        <item>GEI</item>
+        <item>CANG</item>
+        <item>TAN</item>
+        <item>XIA</item>
+        <item>CHONG</item>
+        <item>ZHE</item>
+    </string-array>
+    <integer-array name="aj">
+        <item>32473</item>
+        <item>34255</item>
+        <item>24377</item>
+        <item>21523</item>
+        <item>37325</item>
+        <item>36825</item>
+    </integer-array>
+    <string-array name="ak">
+        <item>Music</item>
+        <item>Feed</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="al">
+        <item>Details</item>
+        <item>Station</item>
+    </string-array>
+    <string-array name="am">
+        <item>Tracks</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="an">
+        <item>Local</item>
+        <item>Online</item>
+    </string-array>
+    <string-array name="ao">
+        <item>Weekly</item>
+        <item>Total</item>
+    </string-array>
+    <string-array name="ap">
+        <item>Single</item>
+        <item>Video</item>
+        <item>Artist</item>
+        <item>Album</item>
+        <item>Mix</item>
+        <item>DJ</item>
+        <item>User</item>
+    </string-array>
+    <string-array name="aq">
+        <item>Single</item>
+    </string-array>
+    <string-array name="ar">
+        <item>Single</item>
+        <item>Video</item>
+        <item>Artist</item>
+        <item>Album</item>
+        <item>DJ</item>
+    </string-array>
+    <string-array name="as">
+        <item>Celebrity</item>
+        <item>DJ</item>
+    </string-array>
+    <integer-array name="at">
+        <item>192000</item>
+        <item>320000</item>
+        <item>999000</item>
+    </integer-array>
+    <string-array name="au">
+        <item>Default</item>
+        <item>Hardware decoding first</item>
+        <item>Software decoding first</item>
+        <item>System decoding</item>
+    </string-array>
+    <string-array name="av">
+        <item>Auto select decoding method</item>
+        <item>Excellent performance with potential compatibility issue.</item>
+        <item>Excellent compatibility with potential performance issue.</item>
+        <item>Apply default decoding type.</item>
+    </string-array>
+    <string-array name="aw">
+        <item>All</item>
+        <item>MV</item>
+    </string-array>
+    <string-array name="ax">
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WES</item>
+        <item>THUR</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+    </string-array>
+    <string-array name="ay">
+        <item>All</item>
+        <item>Followed</item>
+        <item>myself</item>
+    </string-array>
+</resources>

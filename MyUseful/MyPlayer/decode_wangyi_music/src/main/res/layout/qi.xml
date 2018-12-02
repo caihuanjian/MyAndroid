@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.PlaylistAndAlbumHeaderContainer android:id="@id/fr" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/a15" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/avg" android:layout="@layout/qc" android:layout_width="fill_parent" android:layout_height="@dimen/l3" />
+        <include layout="@layout/playlist_album_new_playall_area" />
+    </LinearLayout>
+    <include layout="@layout/layout_pl_al_header_blurbg" />
+    <LinearLayout style="@style/album_pl_info_container_style">
+        <ViewStub android:id="@id/avh" android:layout="@layout/w3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/avi" android:layout="@layout/w4" android:layout_width="@dimen/k4" android:layout_height="@dimen/k3" />
+        <ViewStub android:id="@id/avj" android:layout="@layout/w5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.669983dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/layout_pl_album_action_area" />
+</com.netease.cloudmusic.ui.PlaylistAndAlbumHeaderContainer>

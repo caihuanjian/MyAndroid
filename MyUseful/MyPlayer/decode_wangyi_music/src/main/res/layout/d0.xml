@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/y_" android:background="#ff606060" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ya" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/yb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qp" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/yc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:id="@id/yd" android:background="#ff808080" android:layout_width="0.33000004dip" android:layout_height="17.0dip" android:layout_weight="0.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ye" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/yf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/yg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:id="@id/yd" android:background="#ff808080" android:layout_width="0.33000004dip" android:layout_height="17.0dip" android:layout_weight="0.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/yh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/yi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qj" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:background="#ff808080" android:layout_width="0.33000004dip" android:layout_height="17.0dip" android:layout_weight="0.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/yj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/yk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qs" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/yl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.netease.cloudmusic.ui.NeteaseMusicWebView android:id="@id/ym" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/y_" />
+    <ProgressBar android:id="@id/k0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.6699829dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/dg" android:layout_alignParentTop="true" />
+</RelativeLayout>

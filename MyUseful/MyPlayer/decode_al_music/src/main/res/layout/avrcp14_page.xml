@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/avrcp14_status_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <Button android:textSize="22.0px" android:textColor="#fffdf4b3" android:gravity="center" android:id="@id/button_avrcp14_path_return" android:layout_width="50.0dip" android:layout_height="fill_parent" android:text="&lt;" />
+            <Button android:textSize="22.0px" android:textColor="#fffdf4b3" android:gravity="center" android:id="@id/button_avrcp14_player" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="None" />
+            <TextView android:textSize="22.0px" android:textColor="#fffdf4b3" android:gravity="center" android:id="@id/text_avrcp_browse_path" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="#ffffffff" android:id="@id/title_players" android:background="#ff666666" android:paddingLeft="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Players" />
+            <ListView android:id="@id/list_avrcp14_players" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stackFromBottom="false" android:layout_weight="1.0" />
+            <TextView android:textColor="#fffdf4b3" android:id="@id/title_folders" android:background="#ff666666" android:paddingLeft="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Folder" />
+            <ListView android:id="@id/list_avrcp14_folders" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stackFromBottom="false" android:layout_weight="1.0" />
+            <TextView android:textColor="#fffdf4b3" android:id="@id/title_media" android:background="#ff666666" android:paddingLeft="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Media" />
+            <ListView android:id="@id/list_avrcp14_media" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stackFromBottom="false" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <Button android:textSize="22.0px" android:textColor="#fffdf4b3" android:id="@id/button_enter" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="Enter" />
+            <Button android:textSize="22.0px" android:textColor="#fffdf4b3" android:id="@id/button_back" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="Back" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

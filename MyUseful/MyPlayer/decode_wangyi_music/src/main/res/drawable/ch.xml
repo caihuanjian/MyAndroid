@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="80" android:drawable="@drawable/o4" />
+    <item android:duration="80" android:drawable="@drawable/o_" />
+    <item android:duration="80" android:drawable="@drawable/oa" />
+    <item android:duration="80" android:drawable="@drawable/ob" />
+    <item android:duration="80" android:drawable="@drawable/oc" />
+    <item android:duration="80" android:drawable="@drawable/od" />
+    <item android:duration="80" android:drawable="@drawable/oe" />
+    <item android:duration="80" android:drawable="@drawable/of" />
+    <item android:duration="80" android:drawable="@drawable/og" />
+    <item android:duration="80" android:drawable="@drawable/o5" />
+    <item android:duration="80" android:drawable="@drawable/o6" />
+    <item android:duration="80" android:drawable="@drawable/o7" />
+    <item android:duration="80" android:drawable="@drawable/o8" />
+    <item android:duration="1000" android:drawable="@drawable/o9" />
+</animation-list>

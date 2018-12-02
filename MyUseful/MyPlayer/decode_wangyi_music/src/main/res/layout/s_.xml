@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout style="@style/musicItemRealItemBgPadding10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/auz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/jw" layout="@layout/playing_mark" />
+    <include layout="@layout/song_name_and_info_area_layout" />
+    <include layout="@layout/song_video_btn_layout" />
+    <include layout="@layout/song_menu_btn_layout" />
+</com.netease.cloudmusic.theme.ui.CustomThemeLinearLayout>

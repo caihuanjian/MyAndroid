@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.yinxm.audiofocustest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_get_duck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Duck焦点-降低音乐音量 AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK" />
+
+
+    <Button
+        android:id="@+id/btn_gain_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="永久抢占焦点" />
+
+    <Button
+        android:id="@+id/btn_gain_trans_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="瞬时抢占焦点" />
+
+    <Button
+        android:id="@+id/btn_release_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="释放焦点" />
+
+    <Button
+        android:id="@+id/btn_reg_mediaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态注册MediaButton" />
+    <Button
+        android:id="@+id/btn_unreg_mediaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消注册MediaButton" />
+
+</LinearLayout>

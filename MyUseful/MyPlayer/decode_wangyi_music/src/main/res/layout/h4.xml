@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.AnonymousDrawerHeaderLayout android:orientation="vertical" android:id="@id/a8d" android:background="@drawable/akj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="173.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.MainDrawerAnonimousTextView android:textSize="13.0dip" android:textColor="#c0ffffff" android:gravity="center" android:id="@id/a8e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="9.0dip" android:text="@string/ex" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0dip" app:nightSpecialForegroundColor="@color/df" />
+    <com.netease.cloudmusic.theme.ui.MainDrawerAnonymousButton android:textSize="14.0dip" android:gravity="center" android:id="@id/a8f" android:layout_width="148.0dip" android:layout_height="32.0dip" android:layout_marginTop="9.0dip" android:text="@string/ey" android:layout_below="@id/a8e" android:layout_centerHorizontal="true" app:buttonType="co" />
+</com.netease.cloudmusic.ui.AnonymousDrawerHeaderLayout>

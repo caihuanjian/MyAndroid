@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+apply from: "${project.rootDir}/config.gradle"
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "cn.yinxm.app.applist"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    signingConfigs {
+        releaseSign {
+            keyAlias 'myapp'
+            keyPassword '12332177'
+            storeFile file('../keystore/my.jks')
+            storePassword '12332177'
+        }
+    }
+
+    buildTypes {
+        release {
+//            multiDexEnabled false
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.releaseSign
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            proguardFile getDefaultProguardFile('proguard-android.txt')
+//            proguardFile 'proguard-gradle.cfg'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError false
+    }
+
+//    dexOptions {
+//        javaMaxHeapSize project.ext.javaMaxHeapSize
+//        maxProcessCount = 4
+//        jumboMode = true
+//    }
+
+    compileOptions {
+        sourceCompatibility project.sourceCompatibility
+        targetCompatibility project.targetCompatibility
+    }
+
+    aaptOptions {
+        cruncherEnabled true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:' + rootProject.ext.supportLib
+    implementation 'com.github.h4x0r139:Lib-Android:'+rootProject.ext.Lib_Android
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+}

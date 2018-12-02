@@ -1,0 +1,51 @@
+//gradle 扩展命令工具 [utils.gradle]
+//解析 XML 时候要引入这个 groovy 的 package
+
+def copyFile(String srcFile,dstFile){//拷贝文件函数，用于将最后的生成物拷贝到指定的目录
+
+}
+def rmFile(String targetFile){//删除指定目录中的文件
+
+}
+def cleanOutput(boolean bJar = true){//clean 的时候清理
+
+}
+
+def copyOutput(boolean bJar = true){//copyOutput 内部会调用 copyFile 完成一次 build 的产出物拷贝
+
+}
+
+def getVersionNameAdvanced(){//老朋友
+
+    def xmlFile = project.file("AndroidManifest.xml")
+    def rootManifest = new XmlSlurper().parse(xmlFile)
+    return rootManifest['@android:versionName']
+}
+
+//对于 android library 编译，我会 disable 所有的 debug 编译任务
+
+def disableDebugBuild(){
+    //project.tasks 包含了所有的 tasks，下面的 findAll 是寻找那些名字中带 debug 的 Task。
+
+    //返回值保存到 targetTasks 容器中
+
+    def targetTasks = project.tasks.findAll{task ->
+        task.name.contains("Debug")
+    }
+    //对满足条件的 task，设置它为 disable。如此这般，这个 Task 就不会被执行
+
+    targetTasks.each{
+        println "disable debug task  : ${it.name}"
+        it.setEnabled false
+    }
+}
+//将函数设置为 extra 属性中去，这样，加载 utils.gradle 的 Project 就能调用此文件中定义的函数了
+
+ext{
+//    copyFile = this.&copyFile
+//    rmFile = this.&rmFile
+//    cleanOutput = this.&cleanOutput
+//    copyOutput = this.&copyOutput
+//    getVersionNameAdvanced = this.&getVersionNameAdvanced
+//    disableDebugBuild = this.&disableDebugBuild
+}

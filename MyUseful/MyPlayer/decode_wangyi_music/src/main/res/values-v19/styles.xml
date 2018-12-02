@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fv" parent="@style/ao">
+        <item name="android:windowBackground">@drawable/an3</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="ma" parent="@style/ao">
+        <item name="android:windowBackground">@drawable/ee</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/a4e" android:layout_width="@dimen/d8" android:layout_height="@dimen/d6" android:layout_marginRight="@dimen/hu" app:roundedCornerRadius="@dimen/ft" app:placeholderImage="@drawable/placeholder_disk_180" app:placeholderImageScaleType="dp" app:actualImageScaleType="dj" app:roundTopLeft="true" app:roundTopRight="false" app:roundBottomRight="false" app:roundBottomLeft="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

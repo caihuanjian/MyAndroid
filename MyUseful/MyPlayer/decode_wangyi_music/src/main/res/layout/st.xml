@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.SearchMoreSongLayout android:id="@id/b2c" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/ds" android:id="@id/b2d" android:paddingLeft="7.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abc" app:needApplyDrawableColor="true" app:normalDrawableColor="@color/b5" />
+    <LinearLayout android:orientation="vertical" android:id="@id/b2e" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/b2d" />
+    <FrameLayout android:id="@id/b2f" android:paddingLeft="6.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginTop="-8.0dip" android:layout_below="@id/b2e">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/ds" android:id="@id/r3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" app:needApplyDrawableColor="true" app:normalDrawableColor="@color/b5" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/b2g" android:paddingLeft="7.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_below="@id/b2e">
+        <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/ds" android:id="@id/b2h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abb" android:drawableRight="@drawable/aht" android:drawablePadding="4.0dip" app:needApplyDrawableColor="true" app:normalDrawableColor="@color/b5" />
+    </FrameLayout>
+</com.netease.cloudmusic.ui.SearchMoreSongLayout>

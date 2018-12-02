@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout android:id="@id/asi" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" fresco:forCard="true" fresco:bgType="d0">
+        <com.netease.cloudmusic.ui.NeteaseMusicSimpleDraweeView android:id="@id/asj" android:layout_width="fill_parent" android:layout_height="fill_parent" fresco:fadeDuration="300" fresco:actualImageScaleType="dj" fresco:overlayImage="@drawable/uf" fresco:pressedStateOverlayImage="@color/gi" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/asj">
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/do" android:ellipsize="end" android:id="@id/ask" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" fresco:nightSpecialForegroundColor="@color/df" />
+            <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="11.0sp" android:textColor="@color/ds" android:id="@id/asl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" android:drawableLeft="@drawable/oy" android:drawablePadding="6.669983dip" fresco:nightSpecialForegroundColor="@color/df" fresco:nightSpecialDrawableColor="@color/df" fresco:needApplyDrawableColor="true" fresco:needApplyNormalDrawableColor="true" fresco:normalDrawableColor="@color/ds" />
+        </LinearLayout>
+    </com.netease.cloudmusic.theme.ui.CustomThemeRelativeLayout>
+</FrameLayout>

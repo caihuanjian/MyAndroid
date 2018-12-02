@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.netease.cloudmusic.module.track.viewcomponent.NeteaseSwipeToRefreshForInsertHorizonView android:id="@id/abd" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.netease.cloudmusic.ui.TrackPagerListView android:id="@id/ahs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.netease.cloudmusic.module.track.viewcomponent.NeteaseSwipeToRefreshForInsertHorizonView>
+    <com.netease.cloudmusic.theme.ui.CustomTrackToastTextView android:textSize="13.0sp" android:textColor="@color/dy" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/aht" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/fd" android:layout_marginTop="@dimen/fe" android:layout_below="@id/op" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeIconFABImageView android:layout_gravity="bottom" android:id="@id/ahu" android:visibility="visible" android:layout_width="@dimen/lh" android:layout_height="@dimen/lh" android:layout_marginLeft="@dimen/nm" android:layout_marginRight="@dimen/nm" android:scaleType="center" app:srcCompat="@drawable/er" app:nightSpecialForegroundColor="@color/fs" app:needApplyNormalDrawableColor="false" />
+</FrameLayout>

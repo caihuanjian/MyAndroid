@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a">25.0dip</dimen>
+    <dimen name="b">240.0dip</dimen>
+    <dimen name="c">74.0dip</dimen>
+</resources>

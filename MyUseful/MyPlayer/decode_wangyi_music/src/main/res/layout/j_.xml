@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_width="@dimen/oj" android:layout_height="@dimen/oi">
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a77" app:nightSpecialForegroundColor="@color/dc" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/oi" android:layout_marginTop="@dimen/p0" android:layout_marginBottom="@dimen/oz" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/ael" android:visibility="gone" android:layout_width="@dimen/p1" android:layout_height="@dimen/oy" android:src="@drawable/a73" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <com.netease.cloudmusic.theme.ui.CustomThemeIconImageView android:id="@id/aem" android:layout_width="@dimen/ol" android:layout_height="@dimen/ol" android:layout_marginTop="@dimen/ok" android:src="@drawable/a79" android:layout_centerHorizontal="true" app:nightSpecialForegroundColor="@color/dc" />
+    </RelativeLayout>
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="14.0sp" android:textColor="@color/do" android:gravity="center" android:id="@id/aen" android:paddingLeft="@dimen/gy" android:paddingRight="@dimen/gy" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="11.0dip" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextView android:textSize="12.0sp" android:textColor="@color/dq" android:ellipsize="start" android:id="@id/aeo" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:textColor="@color/cb" android:gravity="center" android:id="@id/aek" android:layout_width="fill_parent" android:layout_height="@dimen/gu" android:layout_marginLeft="@dimen/gy" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/gy" android:text="@string/a79" app:buttonType="cn" />
+    <com.netease.cloudmusic.theme.ui.CustomThemeTextViewWithBackground android:textSize="16.0sp" android:textColor="@color/cb" android:gravity="center" android:id="@id/aep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gu" android:layout_marginLeft="@dimen/gy" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/gy" android:text="@string/a_n" app:buttonType="cn" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="2.0" />
+</LinearLayout>

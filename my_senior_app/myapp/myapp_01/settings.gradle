@@ -1,0 +1,1 @@
+include ':app', ':DeviceInfo', ':AppInstallList', ':yinxmLib', ':xiaomo_h5mixed', ':log_demo', ':TopActivity', ':screenadapt', ':my_demo', ':languagechange', ':log_lib', ':mywificonnect', ':jigsaw_puzzle', ':myandroidtest', ':bookingmeeting'

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bj" parent="@style/pn" />
+    <style name="bk" parent="@style/po" />
+    <style name="ce" parent="@style/pq" />
+    <style name="d_" parent="@style/pp" />
+    <style name="pn" parent="@style/pj">
+        <item name="fy">?android:colorError</item>
+    </style>
+    <style name="po" parent="@style/pk">
+        <item name="fy">?android:colorError</item>
+    </style>
+    <style name="pp" parent="@style/eg">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="pq" parent="@style/pe">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

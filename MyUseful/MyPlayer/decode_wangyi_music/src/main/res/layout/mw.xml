@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/aob" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.cloudmusic.ui.MainTrackImageView android:layout_marginLeft="0.0dip" style="@style/trackInteractivePicStyle" />
+    <com.netease.cloudmusic.ui.MainTrackImageView style="@style/trackInteractivePicStyle" />
+    <com.netease.cloudmusic.ui.MainMoreTrackImageView style="@style/trackInteractivePicStyle" />
+</LinearLayout>

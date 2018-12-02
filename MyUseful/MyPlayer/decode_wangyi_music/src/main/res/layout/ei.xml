@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netease.cloudmusic.ui.BottomSheetDialog.BottomSheetListView android:id="@id/a3a" style="?bs_listStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
