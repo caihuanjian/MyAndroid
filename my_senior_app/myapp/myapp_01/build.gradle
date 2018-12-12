@@ -2,12 +2,12 @@
 
 buildscript {
     repositories {
+        google()
         jcenter()
 //        maven {
 //            url 'https://maven.google.com/'
 //            name 'Google'
 //        }
-        google()
         // 解决gradle plugin升级到3.0后，butterlife Unable to find method 'com.android.build.gradle.api.BaseVariant.getOutputs()Ljava/util/List;'.
 //        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
 
@@ -24,6 +24,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         jcenter()
 //        maven {
 //            url 'https://maven.google.com/'
